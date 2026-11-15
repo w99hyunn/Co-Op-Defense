@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: 46697ce4b9290554197b843d054de110
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3156662250001230903
+    second: DefenseWeaponsV6_0
+  - first:
+      213: -8589025189251329813
+    second: DefenseWeaponsV6_1
+  - first:
+      213: -902475332833125651
+    second: DefenseWeaponsV6_2
+  - first:
+      213: 8146799726146828010
+    second: DefenseWeaponsV6_3
+  - first:
+      213: -6810423616844123246
+    second: DefenseWeaponsV6_4
+  - first:
+      213: -4989690192424980484
+    second: DefenseWeaponsV6_5
+  - first:
+      213: 307229796707821108
+    second: DefenseWeaponsV6_6
+  - first:
+      213: 4932386122242204856
+    second: DefenseWeaponsV6_7
+  - first:
+      213: -5517879700455877937
+    second: DefenseWeaponsV6_8
+  - first:
+      213: 3920672444473234881
+    second: DefenseWeaponsV6_9
+  - first:
+      213: -633366240290243850
+    second: DefenseWeaponsV6_10
+  - first:
+      213: 8953445675676580480
+    second: DefenseWeaponsV6_11
+  - first:
+      213: -7670605632360729975
+    second: DefenseWeaponsV6_12
+  - first:
+      213: 1300009121142205564
+    second: DefenseWeaponsV6_13
+  - first:
+      213: -6753394059636023119
+    second: DefenseWeaponsV6_14
+  - first:
+      213: -1044475553746010673
+    second: DefenseWeaponsV6_15
+  - first:
+      213: -2242739807406702925
+    second: DefenseWeaponsV6_16
+  - first:
+      213: -1874561582852105929
+    second: DefenseWeaponsV6_17
+  - first:
+      213: 7221052486782572207
+    second: DefenseWeaponsV6_18
+  - first:
+      213: -7595712048154466923
+    second: DefenseWeaponsV6_19
+  - first:
+      213: -666787160915971649
+    second: DefenseWeaponsV6_20
+  - first:
+      213: 4218195357755282866
+    second: DefenseWeaponsV6_21
+  - first:
+      213: -7524553357976225689
+    second: DefenseWeaponsV6_22
+  - first:
+      213: -5101056311195835587
+    second: DefenseWeaponsV6_23
+  - first:
+      213: 863318264894787157
+    second: DefenseWeaponsV6_24
+  - first:
+      213: 3565581877664297066
+    second: DefenseWeaponsV6_25
+  - first:
+      213: 7482087776654276428
+    second: DefenseWeaponsV6_26
+  - first:
+      213: 514426546699025632
+    second: DefenseWeaponsV6_27
+  - first:
+      213: -7834953747874071343
+    second: DefenseWeaponsV6_28
+  - first:
+      213: -4024488735665550546
+    second: DefenseWeaponsV6_29
+  - first:
+      213: -6150980807184587144
+    second: DefenseWeaponsV6_30
+  - first:
+      213: 8598005715619687643
+    second: DefenseWeaponsV6_31
+  - first:
+      213: 5374886819257279006
+    second: DefenseWeaponsV6_32
+  - first:
+      213: -2206374993121990870
+    second: DefenseWeaponsV6_33
+  - first:
+      213: 1616351436319111329
+    second: DefenseWeaponsV6_34
+  - first:
+      213: 2747746718673934531
+    second: DefenseWeaponsV6_35
+  - first:
+      213: -4810184777321322948
+    second: DefenseWeaponsV6_36
+  - first:
+      213: 4915476357989404265
+    second: DefenseWeaponsV6_37
+  - first:
+      213: -3667500164938059074
+    second: DefenseWeaponsV6_38
+  - first:
+      213: -504410098422294647
+    second: DefenseWeaponsV6_39
+  - first:
+      213: 6084721580288539261
+    second: DefenseWeaponsV6_40
+  - first:
+      213: 7894167723827518529
+    second: DefenseWeaponsV6_41
+  - first:
+      213: 1305917197254628038
+    second: DefenseWeaponsV6_42
+  - first:
+      213: 4591533755599196145
+    second: DefenseWeaponsV6_43
+  - first:
+      213: 3552177338097148779
+    second: DefenseWeaponsV6_44
+  - first:
+      213: 4226888382494186062
+    second: DefenseWeaponsV6_45
+  - first:
+      213: 2568263412930070233
+    second: DefenseWeaponsV6_46
+  - first:
+      213: 85082173316632295
+    second: DefenseWeaponsV6_47
+  - first:
+      213: -2907336077046392414
+    second: DefenseWeaponsV6_48
+  - first:
+      213: -8923192427587521315
+    second: DefenseWeaponsV6_49
+  - first:
+      213: 4365139641795007816
+    second: DefenseWeaponsV6_50
+  - first:
+      213: 1251630196570282517
+    second: DefenseWeaponsV6_51
+  - first:
+      213: 7425766175899045390
+    second: DefenseWeaponsV6_52
+  - first:
+      213: 5793078553820131126
+    second: DefenseWeaponsV6_53
+  - first:
+      213: -6825308647086603309
+    second: DefenseWeaponsV6_54
+  - first:
+      213: 7469235308670860787
+    second: DefenseWeaponsV6_55
+  - first:
+      213: -4108995293275598850
+    second: DefenseWeaponsV6_56
+  - first:
+      213: -1238138184217055466
+    second: DefenseWeaponsV6_57
+  - first:
+      213: -2997134573220701755
+    second: DefenseWeaponsV6_58
+  - first:
+      213: 3522808536978862260
+    second: DefenseWeaponsV6_59
+  - first:
+      213: -7322040751303726056
+    second: DefenseWeaponsV6_60
+  - first:
+      213: -573208276566701548
+    second: DefenseWeaponsV6_61
+  - first:
+      213: 6131672024283689270
+    second: DefenseWeaponsV6_62
+  - first:
+      213: 6544275392912695575
+    second: DefenseWeaponsV6_63
+  - first:
+      213: 2202543550612038099
+    second: DefenseWeaponsV6_64
+  - first:
+      213: -332053615548759982
+    second: DefenseWeaponsV6_65
+  - first:
+      213: -731249724242869327
+    second: DefenseWeaponsV6_66
+  - first:
+      213: -955938293853305673
+    second: DefenseWeaponsV6_67
+  - first:
+      213: 2140652577169606118
+    second: DefenseWeaponsV6_68
+  - first:
+      213: 4258250686671942024
+    second: DefenseWeaponsV6_69
+  - first:
+      213: -6087076425219236267
+    second: DefenseWeaponsV6_70
+  - first:
+      213: 4678173922119763182
+    second: DefenseWeaponsV6_71
+  - first:
+      213: -5968122564898836275
+    second: DefenseWeaponsV6_72
+  - first:
+      213: -8199215600856393831
+    second: DefenseWeaponsV6_73
+  - first:
+      213: -6495563406598749538
+    second: DefenseWeaponsV6_74
+  - first:
+      213: 8591066402118319350
+    second: DefenseWeaponsV6_75
+  - first:
+      213: -4265285958832107746
+    second: DefenseWeaponsV6_76
+  - first:
+      213: 5275542137679443085
+    second: DefenseWeaponsV6_77
+  - first:
+      213: -5799487465324450350
+    second: DefenseWeaponsV6_78
+  - first:
+      213: 1738168682143264410
+    second: DefenseWeaponsV6_79
+  - first:
+      213: 4961615159066399348
+    second: DefenseWeaponsV6_80
+  - first:
+      213: -1057261078051875562
+    second: DefenseWeaponsV6_81
+  - first:
+      213: -3359876457298319033
+    second: DefenseWeaponsV6_82
+  - first:
+      213: 611070019845552767
+    second: DefenseWeaponsV6_83
+  - first:
+      213: -7723017239800533947
+    second: DefenseWeaponsV6_84
+  - first:
+      213: -1674410448604917793
+    second: DefenseWeaponsV6_85
+  - first:
+      213: 1163129294548218249
+    second: DefenseWeaponsV6_86
+  - first:
+      213: 3853120158775927722
+    second: DefenseWeaponsV6_87
+  - first:
+      213: 721329355332915989
+    second: DefenseWeaponsV6_88
+  - first:
+      213: 690540340996806922
+    second: DefenseWeaponsV6_89
+  - first:
+      213: -2114438689394857172
+    second: DefenseWeaponsV6_90
+  - first:
+      213: 1563382057663448100
+    second: DefenseWeaponsV6_91
+  - first:
+      213: 1025132052401739898
+    second: DefenseWeaponsV6_92
+  - first:
+      213: -5643193295674001288
+    second: DefenseWeaponsV6_93
+  - first:
+      213: -5464593366426520909
+    second: DefenseWeaponsV6_94
+  - first:
+      213: 3615614329176977919
+    second: DefenseWeaponsV6_95
+  - first:
+      213: 7026246945076841096
+    second: DefenseWeaponsV6_96
+  - first:
+      213: -1917513567858217882
+    second: DefenseWeaponsV6_97
+  - first:
+      213: -7778801308684902369
+    second: DefenseWeaponsV6_98
+  - first:
+      213: 3104714921641838583
+    second: DefenseWeaponsV6_99
+  - first:
+      213: 5018862398490258495
+    second: DefenseWeaponsV6_100
+  - first:
+      213: 8747592458427626738
+    second: DefenseWeaponsV6_101
+  - first:
+      213: 8401424863708128031
+    second: DefenseWeaponsV6_102
+  - first:
+      213: 3338763235930474465
+    second: DefenseWeaponsV6_103
+  - first:
+      213: -2356453880026944136
+    second: DefenseWeaponsV6_104
+  - first:
+      213: 9207762289485281952
+    second: DefenseWeaponsV6_105
+  - first:
+      213: -590067174660724179
+    second: DefenseWeaponsV6_106
+  - first:
+      213: 3466145873593889076
+    second: DefenseWeaponsV6_107
+  - first:
+      213: -5229898100215387687
+    second: DefenseWeaponsV6_108
+  - first:
+      213: 2216508876229916869
+    second: DefenseWeaponsV6_109
+  - first:
+      213: 6165337558243987420
+    second: DefenseWeaponsV6_110
+  - first:
+      213: -5052818800156960281
+    second: DefenseWeaponsV6_111
+  - first:
+      213: -3327128527826813846
+    second: DefenseWeaponsV6_112
+  - first:
+      213: -452047276398528587
+    second: DefenseWeaponsV6_113
+  - first:
+      213: 3462340804859957721
+    second: DefenseWeaponsV6_114
+  - first:
+      213: -2249885635295485407
+    second: DefenseWeaponsV6_115
+  - first:
+      213: -7026150441828313592
+    second: DefenseWeaponsV6_116
+  - first:
+      213: 8851282273204021828
+    second: DefenseWeaponsV6_117
+  - first:
+      213: -7687099804867991443
+    second: DefenseWeaponsV6_118
+  - first:
+      213: 5202237594435621835
+    second: DefenseWeaponsV6_119
+  - first:
+      213: 1796577157324840607
+    second: DefenseWeaponsV6_120
+  - first:
+      213: -5017035512528016707
+    second: DefenseWeaponsV6_121
+  - first:
+      213: 922859529831673644
+    second: DefenseWeaponsV6_122
+  - first:
+      213: -6182936942968993163
+    second: DefenseWeaponsV6_123
+  - first:
+      213: 158982313813750523
+    second: DefenseWeaponsV6_124
+  - first:
+      213: -2928571276402023301
+    second: DefenseWeaponsV6_125
+  - first:
+      213: 8523432423919866988
+    second: DefenseWeaponsV6_126
+  - first:
+      213: 5762953109008573708
+    second: DefenseWeaponsV6_127
+  - first:
+      213: 2649121007911088628
+    second: DefenseWeaponsV6_128
+  - first:
+      213: -5107451666454559389
+    second: DefenseWeaponsV6_129
+  - first:
+      213: 738005881363285547
+    second: DefenseWeaponsV6_130
+  - first:
+      213: 1482432758206667760
+    second: DefenseWeaponsV6_131
+  - first:
+      213: 4297757821444937843
+    second: DefenseWeaponsV6_132
+  - first:
+      213: 7808977448841729273
+    second: DefenseWeaponsV6_133
+  - first:
+      213: 459928642150890160
+    second: DefenseWeaponsV6_134
+  - first:
+      213: 1431972833949325976
+    second: DefenseWeaponsV6_135
+  - first:
+      213: -434651884980524979
+    second: DefenseWeaponsV6_136
+  - first:
+      213: 7565528106696885829
+    second: DefenseWeaponsV6_137
+  - first:
+      213: 120634922999504879
+    second: DefenseWeaponsV6_138
+  - first:
+      213: -6908895914203557826
+    second: DefenseWeaponsV6_139
+  - first:
+      213: 8092935418216194023
+    second: DefenseWeaponsV6_140
+  - first:
+      213: 6716008584446632878
+    second: DefenseWeaponsV6_141
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ReferenceWeapon0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 752
+        width: 171
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a48f10246c07048a75d239a1a5a6e1
+      internalID: -670075018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 749
+        width: 224
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed007ec882267a54bbd18515541468d5
+      internalID: 842208140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon2
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 749
+        width: 244
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5954f348562e28b4ba70b2564dc60b55
+      internalID: -2062981033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon3
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 740
+        width: 300
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5df45ec0edc6f40b90e846bd14266f
+      internalID: 222172551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 432
+        width: 172
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66188a96928cec749a220d09fd866e3a
+      internalID: -1031852267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon5
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 431
+        width: 327
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c350785f3ca9140ab4672a60f70977
+      internalID: 1745767065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 421
+        width: 362
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009628719030f90498a21f850ae52319
+      internalID: 2097239020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon7
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 432
+        width: 304
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f27ff5f8b70634a818a08b1fa2a714
+      internalID: 1369480935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 81
+        width: 179
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b583c5c347654c64592ffbc007fb3965
+      internalID: 668535874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 79
+        width: 339
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ee0411f1da42a44a587cc37417fa30
+      internalID: 236522758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon10
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 76
+        width: 362
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c7a5f28b7224647892264173f04860
+      internalID: -1937872611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceWeapon11
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 72
+        width: 317
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e9db497ce4e89428921d2a42f3bffa
+      internalID: -702600587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8933dd40109c05b49a90c23fbdbe1512
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ReferenceWeapon0: -670075018
+      ReferenceWeapon1: 842208140
+      ReferenceWeapon10: -1937872611
+      ReferenceWeapon11: -702600587
+      ReferenceWeapon2: -2062981033
+      ReferenceWeapon3: 222172551
+      ReferenceWeapon4: -1031852267
+      ReferenceWeapon5: 1745767065
+      ReferenceWeapon6: 2097239020
+      ReferenceWeapon7: 1369480935
+      ReferenceWeapon8: 668535874
+      ReferenceWeapon9: 236522758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

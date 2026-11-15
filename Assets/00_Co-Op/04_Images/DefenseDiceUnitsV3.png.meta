@@ -1,0 +1,1692 @@
+fileFormatVersion: 2
+guid: f33c57e0da55bd847a63697393ee200a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7051766392719363824
+    second: DefenseDiceUnitsV3_0
+  - first:
+      213: 3036498906229790508
+    second: DefenseDiceUnitsV3_1
+  - first:
+      213: 7311060534179617113
+    second: DefenseDiceUnitsV3_2
+  - first:
+      213: 9088242599714675296
+    second: DefenseDiceUnitsV3_3
+  - first:
+      213: 3827603415602355924
+    second: DefenseDiceUnitsV3_4
+  - first:
+      213: -6618009832884507058
+    second: DefenseDiceUnitsV3_5
+  - first:
+      213: 6074614338464445929
+    second: DefenseDiceUnitsV3_6
+  - first:
+      213: -6296492522484894034
+    second: DefenseDiceUnitsV3_7
+  - first:
+      213: 5785948258352286193
+    second: DefenseDiceUnitsV3_8
+  - first:
+      213: 8118891118625474522
+    second: DefenseDiceUnitsV3_9
+  - first:
+      213: 7950430026478893796
+    second: DefenseDiceUnitsV3_10
+  - first:
+      213: 7724831646505418601
+    second: DefenseDiceUnitsV3_11
+  - first:
+      213: -6196872733109390719
+    second: DefenseDiceUnitsV3_12
+  - first:
+      213: 5546306346866796061
+    second: DefenseDiceUnitsV3_13
+  - first:
+      213: -1575340050679946238
+    second: DefenseDiceUnitsV3_14
+  - first:
+      213: 7309141384453556479
+    second: DefenseDiceUnitsV3_15
+  - first:
+      213: 8699854846972399795
+    second: DefenseDiceUnitsV3_16
+  - first:
+      213: -4261539527101877216
+    second: DefenseDiceUnitsV3_17
+  - first:
+      213: -7576812934145606612
+    second: DefenseDiceUnitsV3_18
+  - first:
+      213: 5387167123539940052
+    second: DefenseDiceUnitsV3_19
+  - first:
+      213: 5367169661443198877
+    second: DefenseDiceUnitsV3_20
+  - first:
+      213: 1597746286701527255
+    second: DefenseDiceUnitsV3_21
+  - first:
+      213: 5579230365771224988
+    second: DefenseDiceUnitsV3_22
+  - first:
+      213: -298990376600262310
+    second: DefenseDiceUnitsV3_23
+  - first:
+      213: -97664388376103627
+    second: DefenseDiceUnitsV3_24
+  - first:
+      213: -7899726773501433626
+    second: DefenseDiceUnitsV3_25
+  - first:
+      213: 8160964289203350028
+    second: DefenseDiceUnitsV3_26
+  - first:
+      213: 2842447907421869044
+    second: DefenseDiceUnitsV3_27
+  - first:
+      213: 2048404726023192372
+    second: DefenseDiceUnitsV3_28
+  - first:
+      213: 7297595444592299351
+    second: DefenseDiceUnitsV3_29
+  - first:
+      213: 4521728982228891021
+    second: DefenseDiceUnitsV3_30
+  - first:
+      213: 5678094459407149666
+    second: DefenseDiceUnitsV3_31
+  - first:
+      213: 8444425705565063487
+    second: DefenseDiceUnitsV3_32
+  - first:
+      213: 3341366607870361928
+    second: DefenseDiceUnitsV3_33
+  - first:
+      213: -2342285999780876268
+    second: DefenseDiceUnitsV3_34
+  - first:
+      213: 8698436669242424540
+    second: DefenseDiceUnitsV3_35
+  - first:
+      213: -8105140342505968434
+    second: DefenseDiceUnitsV3_36
+  - first:
+      213: 2065255269776141319
+    second: DefenseDiceUnitsV3_37
+  - first:
+      213: 410571473014484632
+    second: DefenseDiceUnitsV3_38
+  - first:
+      213: -9111041062993226704
+    second: DefenseDiceUnitsV3_39
+  - first:
+      213: 744979808369097910
+    second: DefenseDiceUnitsV3_40
+  - first:
+      213: 1694529489802502873
+    second: DefenseDiceUnitsV3_41
+  - first:
+      213: -8700556488565374246
+    second: DefenseDiceUnitsV3_42
+  - first:
+      213: -1438818050806357350
+    second: DefenseDiceUnitsV3_43
+  - first:
+      213: 9011562579504934229
+    second: DefenseDiceUnitsV3_44
+  - first:
+      213: 5771891610256146323
+    second: DefenseDiceUnitsV3_45
+  - first:
+      213: -8837479297202241599
+    second: DefenseDiceUnitsV3_46
+  - first:
+      213: -8890098944442748810
+    second: DefenseDiceUnitsV3_47
+  - first:
+      213: 2413875496571798201
+    second: DefenseDiceUnitsV3_48
+  - first:
+      213: 4487816984801079817
+    second: DefenseDiceUnitsV3_49
+  - first:
+      213: 5881409027255260772
+    second: DefenseDiceUnitsV3_50
+  - first:
+      213: -6609969570578879177
+    second: DefenseDiceUnitsV3_51
+  - first:
+      213: -4678229344734236114
+    second: DefenseDiceUnitsV3_52
+  - first:
+      213: 4633478361458079573
+    second: DefenseDiceUnitsV3_53
+  - first:
+      213: -1213646014578451907
+    second: DefenseDiceUnitsV3_54
+  - first:
+      213: -2631929273679796219
+    second: DefenseDiceUnitsV3_55
+  - first:
+      213: -174336237524272773
+    second: DefenseDiceUnitsV3_56
+  - first:
+      213: 6608673310247996507
+    second: DefenseDiceUnitsV3_57
+  - first:
+      213: -4940391162765156419
+    second: DefenseDiceUnitsV3_58
+  - first:
+      213: 6184265989416140716
+    second: DefenseDiceUnitsV3_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_0
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 850
+        width: 376
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe431d1c28ecd160800000000000000
+      internalID: 7051766392719363824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_1
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1191
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2750bacaafc32a20800000000000000
+      internalID: 3036498906229790508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 849
+        width: 373
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9595727f1da167560800000000000000
+      internalID: 7311060534179617113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 849
+        width: 389
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ad09c2e7cef1e70800000000000000
+      internalID: 9088242599714675296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_4
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 843
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dedc08e6016e1530800000000000000
+      internalID: 3827603415602355924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 827
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e60e6ee1b1824a0800000000000000
+      internalID: -6618009832884507058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_6
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 835
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5faaf5e8d5d4450800000000000000
+      internalID: 6074614338464445929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 464
+        width: 361
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6726a396d5e98a0800000000000000
+      internalID: -6296492522484894034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_8
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 776
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9c0e32941db4050800000000000000
+      internalID: 5785948258352286193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 734
+        width: 132
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7ceb7e4781ca070800000000000000
+      internalID: 8118891118625474522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_10
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 698
+        width: 120
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eabfd36cf9955e60800000000000000
+      internalID: 7950430026478893796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 320
+        width: 443
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fb6af547d143b60800000000000000
+      internalID: 7724831646505418601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_12
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 783
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182f5b8e419400aa0800000000000000
+      internalID: -6196872733109390719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_13
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 801
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d166d74ac3078fc40800000000000000
+      internalID: 5546306346866796061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_14
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 795
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a6c60294432ae0800000000000000
+      internalID: -1575340050679946238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_15
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 746
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff806791d594f6560800000000000000
+      internalID: 7309141384453556479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_16
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 774
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b01047b3e71cb870800000000000000
+      internalID: 8699854846972399795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_17
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 774
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0247ec2f068fbd4c0800000000000000
+      internalID: -4261539527101877216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_18
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 789
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c7aa2b7c0c9d690800000000000000
+      internalID: -7576812934145606612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 759
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2d248d4ff03ca40800000000000000
+      internalID: 5387167123539940052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 439
+        width: 369
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f439fde540c7a40800000000000000
+      internalID: 5367169661443198877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 726
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d04b0458c55c2610800000000000000
+      internalID: 1597746286701527255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_22
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 670
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97ddd725786d6d40800000000000000
+      internalID: 5579230365771224988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 688
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a592b7b26d5c9dbf0800000000000000
+      internalID: -298990376600262310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535f2a791c605aef0800000000000000
+      internalID: -97664388376103627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_25
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 411
+        width: 108
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8edc2aa588e5290800000000000000
+      internalID: -7899726773501433626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 473
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a2d9a48c1914170800000000000000
+      internalID: 8160964289203350028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_27
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 447
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3de66df47627720800000000000000
+      internalID: 2842447907421869044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_28
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 473
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ff7d2de356d6c10800000000000000
+      internalID: 2048404726023192372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 423
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dce6d7464464560800000000000000
+      internalID: 7297595444592299351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_30
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 449
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85775c5d8860ce30800000000000000
+      internalID: 4521728982228891021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 449
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aa316b3d4acce40800000000000000
+      internalID: 5678094459407149666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_32
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 424
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3902605070a03570800000000000000
+      internalID: 8444425705565063487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_33
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 381
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841077ef93bee5e20800000000000000
+      internalID: 3341366607870361928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_34
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 412
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410b0bc0b478e7fd0800000000000000
+      internalID: -2342285999780876268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_35
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 339
+        width: 58
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc3d6b701e07b870800000000000000
+      internalID: 8698436669242424540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_36
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 367
+        width: 61
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc6e362dc1c48f80800000000000000
+      internalID: -8105140342505968434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_37
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 335
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ca285c9b249ac10800000000000000
+      internalID: 2065255269776141319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_38
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 306
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eefe35494a2b500800000000000000
+      internalID: 410571473014484632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_39
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 337
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0349a42fc641f8180800000000000000
+      internalID: -9111041062993226704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_40
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 135
+        width: 341
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcbdaa4033b65a00800000000000000
+      internalID: 744979808369097910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_41
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 0
+        width: 435
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d22a1dc79d248710800000000000000
+      internalID: 1694529489802502873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_42
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 270
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad247de98f9614780800000000000000
+      internalID: -8700556488565374246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 83
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9264412b9a480ce0800000000000000
+      internalID: -1438818050806357350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_44
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 33
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d2896bb608f0d70800000000000000
+      internalID: 9011562579504934229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_45
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 47
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fff57b6d0e91050800000000000000
+      internalID: 5771891610256146323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_46
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 51
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf3464f667fa5580800000000000000
+      internalID: -8837479297202241599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_47
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 94
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6703a6e9c1600a480800000000000000
+      internalID: -8890098944442748810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_48
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 87
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b28e2199fecf7120800000000000000
+      internalID: 2413875496571798201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_49
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 49
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902780c25cde74e30800000000000000
+      internalID: 4487816984801079817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_50
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 81
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46653586956fe9150800000000000000
+      internalID: 5881409027255260772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_51
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 89
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d218952bba444a0800000000000000
+      internalID: -6609969570578879177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_52
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 105
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22be418237931fb0800000000000000
+      internalID: -4678229344734236114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_53
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 71
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557fa21450c6d4040800000000000000
+      internalID: 4633478361458079573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_54
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 39
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a9bf14163482fe0800000000000000
+      internalID: -1213646014578451907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_55
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 45
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5082d582542897bd0800000000000000
+      internalID: -2631929273679796219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_56
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 47
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7933ea9d12a49df0800000000000000
+      internalID: -174336237524272773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_57
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 9
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ccfe58c59b6bb50800000000000000
+      internalID: 6608673310247996507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_58
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf57eba964307bb0800000000000000
+      internalID: -4940391162765156419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseDiceUnitsV3_59
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 31
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafbda7d62de2d550800000000000000
+      internalID: 6184265989416140716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DefenseDiceUnitsV3_0: 7051766392719363824
+      DefenseDiceUnitsV3_1: 3036498906229790508
+      DefenseDiceUnitsV3_10: 7950430026478893796
+      DefenseDiceUnitsV3_11: 7724831646505418601
+      DefenseDiceUnitsV3_12: -6196872733109390719
+      DefenseDiceUnitsV3_13: 5546306346866796061
+      DefenseDiceUnitsV3_14: -1575340050679946238
+      DefenseDiceUnitsV3_15: 7309141384453556479
+      DefenseDiceUnitsV3_16: 8699854846972399795
+      DefenseDiceUnitsV3_17: -4261539527101877216
+      DefenseDiceUnitsV3_18: -7576812934145606612
+      DefenseDiceUnitsV3_19: 5387167123539940052
+      DefenseDiceUnitsV3_2: 7311060534179617113
+      DefenseDiceUnitsV3_20: 5367169661443198877
+      DefenseDiceUnitsV3_21: 1597746286701527255
+      DefenseDiceUnitsV3_22: 5579230365771224988
+      DefenseDiceUnitsV3_23: -298990376600262310
+      DefenseDiceUnitsV3_24: -97664388376103627
+      DefenseDiceUnitsV3_25: -7899726773501433626
+      DefenseDiceUnitsV3_26: 8160964289203350028
+      DefenseDiceUnitsV3_27: 2842447907421869044
+      DefenseDiceUnitsV3_28: 2048404726023192372
+      DefenseDiceUnitsV3_29: 7297595444592299351
+      DefenseDiceUnitsV3_3: 9088242599714675296
+      DefenseDiceUnitsV3_30: 4521728982228891021
+      DefenseDiceUnitsV3_31: 5678094459407149666
+      DefenseDiceUnitsV3_32: 8444425705565063487
+      DefenseDiceUnitsV3_33: 3341366607870361928
+      DefenseDiceUnitsV3_34: -2342285999780876268
+      DefenseDiceUnitsV3_35: 8698436669242424540
+      DefenseDiceUnitsV3_36: -8105140342505968434
+      DefenseDiceUnitsV3_37: 2065255269776141319
+      DefenseDiceUnitsV3_38: 410571473014484632
+      DefenseDiceUnitsV3_39: -9111041062993226704
+      DefenseDiceUnitsV3_4: 3827603415602355924
+      DefenseDiceUnitsV3_40: 744979808369097910
+      DefenseDiceUnitsV3_41: 1694529489802502873
+      DefenseDiceUnitsV3_42: -8700556488565374246
+      DefenseDiceUnitsV3_43: -1438818050806357350
+      DefenseDiceUnitsV3_44: 9011562579504934229
+      DefenseDiceUnitsV3_45: 5771891610256146323
+      DefenseDiceUnitsV3_46: -8837479297202241599
+      DefenseDiceUnitsV3_47: -8890098944442748810
+      DefenseDiceUnitsV3_48: 2413875496571798201
+      DefenseDiceUnitsV3_49: 4487816984801079817
+      DefenseDiceUnitsV3_5: -6618009832884507058
+      DefenseDiceUnitsV3_50: 5881409027255260772
+      DefenseDiceUnitsV3_51: -6609969570578879177
+      DefenseDiceUnitsV3_52: -4678229344734236114
+      DefenseDiceUnitsV3_53: 4633478361458079573
+      DefenseDiceUnitsV3_54: -1213646014578451907
+      DefenseDiceUnitsV3_55: -2631929273679796219
+      DefenseDiceUnitsV3_56: -174336237524272773
+      DefenseDiceUnitsV3_57: 6608673310247996507
+      DefenseDiceUnitsV3_58: -4940391162765156419
+      DefenseDiceUnitsV3_59: 6184265989416140716
+      DefenseDiceUnitsV3_6: 6074614338464445929
+      DefenseDiceUnitsV3_7: -6296492522484894034
+      DefenseDiceUnitsV3_8: 5785948258352286193
+      DefenseDiceUnitsV3_9: 8118891118625474522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: aa93f428d2ea5864b98d99e7cd83abf5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2646702482391447716
+    second: DefenseMonstersV6_0
+  - first:
+      213: -7909729072763279887
+    second: DefenseMonstersV6_1
+  - first:
+      213: 1279379178946311648
+    second: DefenseMonstersV6_2
+  - first:
+      213: -8253656178566288411
+    second: DefenseMonstersV6_3
+  - first:
+      213: -5126407735508365303
+    second: DefenseMonstersV6_4
+  - first:
+      213: -8035782543220920387
+    second: DefenseMonstersV6_5
+  - first:
+      213: 1035281845982390036
+    second: DefenseMonstersV6_6
+  - first:
+      213: -3592352486981541944
+    second: DefenseMonstersV6_7
+  - first:
+      213: -4908858140897699041
+    second: DefenseMonstersV6_8
+  - first:
+      213: 8494777287300619133
+    second: DefenseMonstersV6_9
+  - first:
+      213: 8245119761644195576
+    second: DefenseMonstersV6_10
+  - first:
+      213: 2902605713582829747
+    second: DefenseMonstersV6_11
+  - first:
+      213: -4175311523111536235
+    second: DefenseMonstersV6_12
+  - first:
+      213: -5705645871146153461
+    second: DefenseMonstersV6_13
+  - first:
+      213: 2355788847867926006
+    second: DefenseMonstersV6_14
+  - first:
+      213: -898690056657948467
+    second: DefenseMonstersV6_15
+  - first:
+      213: 130404894783872381
+    second: DefenseMonstersV6_16
+  - first:
+      213: -1829379981699352482
+    second: DefenseMonstersV6_17
+  - first:
+      213: 8652371674881938534
+    second: DefenseMonstersV6_18
+  - first:
+      213: -5385972873123109182
+    second: DefenseMonstersV6_19
+  - first:
+      213: 1386713860309456097
+    second: DefenseMonstersV6_20
+  - first:
+      213: -3567418287930481681
+    second: DefenseMonstersV6_21
+  - first:
+      213: 2488199309324851121
+    second: DefenseMonstersV6_22
+  - first:
+      213: 1032407195177288093
+    second: DefenseMonstersV6_23
+  - first:
+      213: 2435635882874159008
+    second: DefenseMonstersV6_24
+  - first:
+      213: 917294895070265679
+    second: DefenseMonstersV6_25
+  - first:
+      213: 5536895321046001340
+    second: DefenseMonstersV6_26
+  - first:
+      213: -3950445557457857223
+    second: DefenseMonstersV6_27
+  - first:
+      213: 7615296026905728962
+    second: DefenseMonstersV6_28
+  - first:
+      213: 174186211067218583
+    second: DefenseMonstersV6_29
+  - first:
+      213: 100487440367626418
+    second: DefenseMonstersV6_30
+  - first:
+      213: -6599006065319034789
+    second: DefenseMonstersV6_31
+  - first:
+      213: -5237019800961441001
+    second: DefenseMonstersV6_32
+  - first:
+      213: 2776370057376364863
+    second: DefenseMonstersV6_33
+  - first:
+      213: -234994917093926195
+    second: DefenseMonstersV6_34
+  - first:
+      213: -5138395604825364954
+    second: DefenseMonstersV6_35
+  - first:
+      213: 8393721813127251657
+    second: DefenseMonstersV6_36
+  - first:
+      213: -8214064469887352752
+    second: DefenseMonstersV6_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ReferenceMonster0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 107
+        width: 361
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5c6379ccc7a734c8bb2113fec9bd92
+      internalID: 2068453797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceMonster1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 109
+        width: 432
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcb4ddd7f652ea42b4bf42cbdec5c9f
+      internalID: 310014001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceMonster2
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 107
+        width: 483
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cbfaf5e8fbae54aa4525e9ab7e1fb7
+      internalID: -380272886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReferenceMonster3
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 104
+        width: 591
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a1031ea90b0394e93c1f9a4d34286a
+      internalID: 535742772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b6584228ce8a8ac4db387f9413fa45df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ReferenceMonster0: 2068453797
+      ReferenceMonster1: 310014001
+      ReferenceMonster2: -380272886
+      ReferenceMonster3: 535742772
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
