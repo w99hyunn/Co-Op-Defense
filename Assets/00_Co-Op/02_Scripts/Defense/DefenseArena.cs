@@ -5,7 +5,9 @@ namespace OpenFrame
     /// <summary>Shared stage coordinates keep targeting, movement and presentation on the same track.</summary>
     public static class DefenseArena
     {
+        public static Vector2 StageSize => new Vector2(900,2000);
         public static Vector2 CellPosition(int x, int y) => new Vector2(120 + (x + 0.5f) * 66, 420 + (y + 0.5f) * 66);
+        public static Vector2 PartnerCellPosition(int x,int y) => CellPosition(x,y)+new Vector2(0,1035);
 
         public static Vector2 LoopPoint(float progress)
         {

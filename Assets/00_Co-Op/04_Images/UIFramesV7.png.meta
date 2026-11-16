@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 0e10a3150d4ccbf41bb1e751bdc4913e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8286307435307365200
+    second: UIFramesV7_0
+  - first:
+      213: -634538795915334474
+    second: UIFramesV7_1
+  - first:
+      213: -5906852035903161182
+    second: UIFramesV7_2
+  - first:
+      213: 7779716760350132818
+    second: UIFramesV7_3
+  - first:
+      213: -5204962209814354807
+    second: UIFramesV7_4
+  - first:
+      213: 4769082426431853950
+    second: UIFramesV7_5
+  - first:
+      213: -8102639238032663934
+    second: UIFramesV7_6
+  - first:
+      213: 6852391413418208934
+    second: UIFramesV7_7
+  - first:
+      213: -9102836572028618514
+    second: UIFramesV7_8
+  - first:
+      213: -5640538990958787828
+    second: UIFramesV7_9
+  - first:
+      213: -6224200886106675526
+    second: UIFramesV7_10
+  - first:
+      213: 3791438418692983281
+    second: UIFramesV7_11
+  - first:
+      213: 6683414640471069406
+    second: UIFramesV7_12
+  - first:
+      213: -6938679689943852066
+    second: UIFramesV7_13
+  - first:
+      213: 3030349002904510750
+    second: UIFramesV7_14
+  - first:
+      213: -1539546727111013752
+    second: UIFramesV7_15
+  - first:
+      213: 7068168808138900814
+    second: UIFramesV7_16
+  - first:
+      213: 463599907767698306
+    second: UIFramesV7_17
+  - first:
+      213: 6595443685051028412
+    second: UIFramesV7_18
+  - first:
+      213: -2957821084058917716
+    second: UIFramesV7_19
+  - first:
+      213: -5871292204455640044
+    second: UIFramesV7_20
+  - first:
+      213: 3646607828254414914
+    second: UIFramesV7_21
+  - first:
+      213: -988467042102350100
+    second: UIFramesV7_22
+  - first:
+      213: 4069543350798726688
+    second: UIFramesV7_23
+  - first:
+      213: -4000019749162559680
+    second: UIFramesV7_24
+  - first:
+      213: -6584069599114830145
+    second: UIFramesV7_25
+  - first:
+      213: -5179774237771678749
+    second: UIFramesV7_26
+  - first:
+      213: -4532506946126055488
+    second: UIFramesV7_27
+  - first:
+      213: 3453082101584989081
+    second: UIFramesV7_28
+  - first:
+      213: -7304508141209320436
+    second: UIFramesV7_29
+  - first:
+      213: 631776336541864147
+    second: UIFramesV7_30
+  - first:
+      213: -4240332795524957777
+    second: UIFramesV7_31
+  - first:
+      213: -3878290276164902366
+    second: UIFramesV7_32
+  - first:
+      213: -2062282853287278187
+    second: UIFramesV7_33
+  - first:
+      213: 6166485342502351340
+    second: UIFramesV7_34
+  - first:
+      213: 1207860220724770422
+    second: UIFramesV7_35
+  - first:
+      213: 2463768175408376362
+    second: UIFramesV7_36
+  - first:
+      213: -6172733064521449907
+    second: UIFramesV7_37
+  - first:
+      213: -822232583387649204
+    second: UIFramesV7_38
+  - first:
+      213: -2351848862242163816
+    second: UIFramesV7_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frame0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 370
+        width: 627
+        height: 563
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b89ec337ade754e99b7ce3624f28ef
+      internalID: 1535258427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame1
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 561
+        width: 694
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1127614d58b1b194bab88dcefe534309
+      internalID: -234850472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 72
+        width: 621
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e932482d453d8c41b29cece8121ef52
+      internalID: -1609088342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame3
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 98
+        width: 688
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a4febf01c6846498709eb268642483
+      internalID: 941956086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e3ebba3e7f4c3224b8198e6f454559ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Frame0: 1535258427
+      Frame1: -234850472
+      Frame2: -1609088342
+      Frame3: 941956086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

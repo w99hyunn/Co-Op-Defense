@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 734f3131c886cd14d946ecb9381ec379
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8902797942162651102
+    second: UIOpenIconsV10_0
+  - first:
+      213: -1383835327841472617
+    second: UIOpenIconsV10_1
+  - first:
+      213: -5327754664860382252
+    second: UIOpenIconsV10_2
+  - first:
+      213: 4462643524205494120
+    second: UIOpenIconsV10_3
+  - first:
+      213: -4355123481820370347
+    second: UIOpenIconsV10_4
+  - first:
+      213: 276513615504814429
+    second: UIOpenIconsV10_5
+  - first:
+      213: -1933111218674156655
+    second: UIOpenIconsV10_6
+  - first:
+      213: 2950024561490373333
+    second: UIOpenIconsV10_7
+  - first:
+      213: -4308113144308325123
+    second: UIOpenIconsV10_8
+  - first:
+      213: 3003146289306955169
+    second: UIOpenIconsV10_9
+  - first:
+      213: -6789288929713160429
+    second: UIOpenIconsV10_10
+  - first:
+      213: -3872482107869725678
+    second: UIOpenIconsV10_11
+  - first:
+      213: 2727423819151272986
+    second: UIOpenIconsV10_12
+  - first:
+      213: 4379821287532674885
+    second: UIOpenIconsV10_13
+  - first:
+      213: -7282352652941732496
+    second: UIOpenIconsV10_14
+  - first:
+      213: 4999242799060959727
+    second: UIOpenIconsV10_15
+  - first:
+      213: -875364447675294321
+    second: UIOpenIconsV10_16
+  - first:
+      213: 3249501695461166798
+    second: UIOpenIconsV10_17
+  - first:
+      213: -6717394817679979884
+    second: UIOpenIconsV10_18
+  - first:
+      213: -2077883309088978523
+    second: UIOpenIconsV10_19
+  - first:
+      213: 4849019441473127990
+    second: UIOpenIconsV10_20
+  - first:
+      213: 6863403079055262737
+    second: UIOpenIconsV10_21
+  - first:
+      213: -5268700000986112549
+    second: UIOpenIconsV10_22
+  - first:
+      213: -435310817352286437
+    second: UIOpenIconsV10_23
+  - first:
+      213: -5477450374856449181
+    second: UIOpenIconsV10_24
+  - first:
+      213: 697465333651251901
+    second: UIOpenIconsV10_25
+  - first:
+      213: 1992327179448184423
+    second: UIOpenIconsV10_26
+  - first:
+      213: 8191681988111145803
+    second: UIOpenIconsV10_27
+  - first:
+      213: 683290884846532203
+    second: UIOpenIconsV10_28
+  - first:
+      213: 1557358611304816492
+    second: UIOpenIconsV10_29
+  - first:
+      213: 995575823182990465
+    second: UIOpenIconsV10_30
+  - first:
+      213: 4518262524344014917
+    second: UIOpenIconsV10_31
+  - first:
+      213: 674062620030585054
+    second: UIOpenIconsV10_32
+  - first:
+      213: -394658239742099924
+    second: UIOpenIconsV10_33
+  - first:
+      213: -7535703399244196832
+    second: UIOpenIconsV10_34
+  - first:
+      213: -7599074263804372560
+    second: UIOpenIconsV10_35
+  - first:
+      213: 8651219560684632158
+    second: UIOpenIconsV10_36
+  - first:
+      213: 4397966982025691362
+    second: UIOpenIconsV10_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OpenIcon0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 600
+        width: 248
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284830760c3ecca4585c5548d866c84b
+      internalID: -852098778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenIcon1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 574
+        width: 374
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbd1dc862aa80f4ebeca7019befaf5a
+      internalID: 1295898118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenIcon2
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 547
+        width: 299
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e2f4c14591bbb4585fcafc77cc7d2b
+      internalID: 115902468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenIcon3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 90
+        width: 307
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41892bb412c4dd47bc007351c8f3249
+      internalID: 1609656663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenIcon4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 66
+        width: 368
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382d71b2421ebe84cb7913b119fce3b7
+      internalID: 2067854158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenIcon5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 191
+        width: 109
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c1d575def232a46a3396f3a58bdc32
+      internalID: -1789717869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 22957096ac74f4e4dac44fbfb7766874
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OpenIcon0: -852098778
+      OpenIcon1: 1295898118
+      OpenIcon2: 115902468
+      OpenIcon3: 1609656663
+      OpenIcon4: 2067854158
+      OpenIcon5: -1789717869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

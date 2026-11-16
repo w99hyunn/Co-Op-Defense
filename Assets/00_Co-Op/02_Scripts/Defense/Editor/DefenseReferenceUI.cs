@@ -84,6 +84,7 @@ namespace OpenFrame.Editor
                 v.upgradeIcons[i].sprite=w.weaponSprites[i*3];v.upgradeIcons[i].preserveAspect=true;
             }
             InstallTerrain(w);
+            DefenseGeneratedUI.Apply(v);
             v.overlay.transform.SetAsLastSibling();
             v.Refresh(new DefenseModel(new DefenseRules(),1),0);
             EditorUtility.SetDirty(v);EditorUtility.SetDirty(w);EditorSceneManager.MarkSceneDirty(v.gameObject.scene);EditorSceneManager.SaveScene(v.gameObject.scene);AssetDatabase.SaveAssets();
@@ -91,28 +92,24 @@ namespace OpenFrame.Editor
         }
         private static void InstallTerrain(DefenseWorldView w)
         {
-            string path=Folder+"DefenseArenaV6.png";AssetDatabase.ImportAsset(path);DefenseArtAuthoring.Configure(path);var t=AssetDatabase.LoadAssetAtPath<Texture2D>(path);
-            float[] source={0,190,465,500,930,960,1435,1774};float[] target={0,130,400,450,940,965,1405,1800};
-            var rects=new Rect[7];for(int i=0;i<7;i++)rects[i]=new Rect(0,t.height*(1-source[i+1]/1774f),t.width,t.height*(source[i+1]-source[i])/1774f);
-            var sprites=DefenseArtAuthoring.Slice(path,rects,"ReferenceTerrain");
-            foreach(var sr in w.GetComponentsInChildren<SpriteRenderer>(true))if(sr.name.StartsWith("CompositionArt_")||sr.name.StartsWith("PaintedArena_"))sr.gameObject.SetActive(false);
-            for(int i=0;i<7;i++)
-            {
-                var found=w.transform.Find("ReferenceTerrain"+i);var go=found!=null?found.gameObject:new GameObject("ReferenceTerrain"+i,typeof(SpriteRenderer));go.transform.SetParent(w.transform,false);go.TryGetComponent<SpriteRenderer>(out var terrain);terrain.sprite=sprites[i];terrain.drawMode=SpriteDrawMode.Sliced;terrain.size=new Vector2(9,(target[i+1]-target[i])*.01f);terrain.color=Color.white;terrain.sortingOrder=-110;go.transform.position=new Vector3(4.5f,(1800-(target[i]+target[i+1])*.5f)*.01f,0);
-            }
-            w.worldCamera.backgroundColor=Hex("284B3C");
+            string path=Folder+"DefenseArenaV13.png";AssetDatabase.ImportAsset(path);DefenseArtAuthoring.Configure(path);var t=AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+            var sprite=DefenseArtAuthoring.Slice(path,new[]{new Rect(0,0,t.width,t.height)},"SeamlessArena")[0];
+            foreach(var sr in w.GetComponentsInChildren<SpriteRenderer>(true))if(sr.name.StartsWith("CompositionArt_")||sr.name.StartsWith("PaintedArena_")||sr.name.StartsWith("ReferenceTerrain"))sr.gameObject.SetActive(false);
+            var found=w.transform.Find("SeamlessArena");var go=found!=null?found.gameObject:new GameObject("SeamlessArena",typeof(SpriteRenderer));go.transform.SetParent(w.transform,false);go.TryGetComponent<SpriteRenderer>(out var terrain);
+            terrain.sprite=sprite;terrain.drawMode=SpriteDrawMode.Sliced;terrain.size=new Vector2(20f*t.width/t.height,20f);terrain.transform.localScale=Vector3.one;terrain.color=Color.white;terrain.sortingOrder=-110;go.transform.position=new Vector3(4.5f,10,0);
+            w.worldCamera.backgroundColor=Hex("DDDCD0");
             var cell=Plate("ReferenceGroundInset",Hex("DCAF7C"),Hex("D0A16F"),Hex("D0A16F"),false);
             foreach(var sr in w.GetComponentsInChildren<SpriteRenderer>(true))
                 if(sr.name.StartsWith("PartnerCell_")||sr.name.StartsWith("CenterCell_")||sr.name.StartsWith("Cell_")){sr.sprite=cell;sr.color=new Color(1,1,1,.54f);}
         }
         private static void InstallWeapons(DefenseWorldView w)
         {
-            var cast=Atlas("DefenseWeaponsV6.png",4,3,"ReferenceWeapon",null,new[]{0f,1f/3f,.615f,1f});
+            var cast=Atlas("DefenseWeaponsV6.png",4,3,"ReferenceWeapon",new[]{0f,.24f,.46f,.725f,1f},new[]{0f,1f/3f,.615f,1f});
             w.weaponSprites=new Sprite[9];w.supportArt=new Sprite[3];
             for(int row=0;row<3;row++){for(int col=0;col<3;col++)w.weaponSprites[row*3+col]=cast[row*4+col];w.supportArt[row]=cast[row*4+3];}
             foreach(var weapon in w.weapons)weapon.size=Vector2.one*.52f;
         }
-        internal static Sprite[] Atlas(string file,int columns,int rows,string prefix,float[] edges=null,float[] rowEdges=null)
+        internal static Sprite[] Atlas(string file,int columns,int rows,string prefix,float[] edges=null,float[] rowEdges=null,Vector4[] borders=null)
         {
             string path=Folder+file;AssetDatabase.ImportAsset(path);DefenseArtAuthoring.Configure(path);var t=AssetDatabase.LoadAssetAtPath<Texture2D>(path);
             if(t.GetPixel(0,0).a>.05f)throw new InvalidOperationException("Atlas requires actual transparency");
@@ -126,7 +123,7 @@ namespace OpenFrame.Editor
                 for(int y=y0;y<y1;y++)for(int x=x0;x<x1;x++)if(t.GetPixel(x,y).a>.18f){l=Math.Min(l,x);r=Math.Max(r,x);b=Math.Min(b,y);top=Math.Max(top,y);}
                 rects[i]=Rect.MinMaxRect(Math.Max(x0,l-2),Math.Max(y0,b-2),Math.Min(x1,r+3),Math.Min(y1,top+3));
             }
-            return DefenseArtAuthoring.Slice(path,rects,prefix);
+            return DefenseArtAuthoring.Slice(path,rects,prefix,borders);
         }
         private static void Style(TMP_Text t,float size,Color color){t.fontSize=size;t.color=color;t.alignment=TextAlignmentOptions.Center;t.raycastTarget=false;}
         private static Transform Node(Transform p,string name){var t=p.Find(name);if(t!=null)return t;var g=new GameObject(name,typeof(RectTransform));g.transform.SetParent(p,false);return g.transform;}

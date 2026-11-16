@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: fba828b126b807f48a34af78aea7e636
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6775056330726648843
+    second: UIControlsV11_0
+  - first:
+      213: -4872697958033722548
+    second: UIControlsV11_1
+  - first:
+      213: 7676486027028304100
+    second: UIControlsV11_2
+  - first:
+      213: -3007147020509993981
+    second: UIControlsV11_3
+  - first:
+      213: 4359033207023065983
+    second: UIControlsV11_4
+  - first:
+      213: 2200914383155484187
+    second: UIControlsV11_5
+  - first:
+      213: -3099558420324424376
+    second: UIControlsV11_6
+  - first:
+      213: -1191547639898503281
+    second: UIControlsV11_7
+  - first:
+      213: -6905898678612572888
+    second: UIControlsV11_8
+  - first:
+      213: 7945079230085674329
+    second: UIControlsV11_9
+  - first:
+      213: 7060421319661848978
+    second: UIControlsV11_10
+  - first:
+      213: 6573746145352836466
+    second: UIControlsV11_11
+  - first:
+      213: -7474353302829941689
+    second: UIControlsV11_12
+  - first:
+      213: 1226899367785334265
+    second: UIControlsV11_13
+  - first:
+      213: -6993108761257873690
+    second: UIControlsV11_14
+  - first:
+      213: 6690409779529038126
+    second: UIControlsV11_15
+  - first:
+      213: -7146353996776561964
+    second: UIControlsV11_16
+  - first:
+      213: -1101181871382198892
+    second: UIControlsV11_17
+  - first:
+      213: 185947002144932927
+    second: UIControlsV11_18
+  - first:
+      213: -3540691481599113994
+    second: UIControlsV11_19
+  - first:
+      213: -1868321624125649450
+    second: UIControlsV11_20
+  - first:
+      213: -3567077022972377334
+    second: UIControlsV11_21
+  - first:
+      213: -5675138075526762647
+    second: UIControlsV11_22
+  - first:
+      213: -9208015107008279595
+    second: UIControlsV11_23
+  - first:
+      213: 5739550573681906310
+    second: UIControlsV11_24
+  - first:
+      213: 7166550742544633894
+    second: UIControlsV11_25
+  - first:
+      213: -6030399077732885447
+    second: UIControlsV11_26
+  - first:
+      213: -8926620617754613281
+    second: UIControlsV11_27
+  - first:
+      213: -2618186274650258909
+    second: UIControlsV11_28
+  - first:
+      213: 5721255500082276761
+    second: UIControlsV11_29
+  - first:
+      213: -692711922984766824
+    second: UIControlsV11_30
+  - first:
+      213: 3523942103049569272
+    second: UIControlsV11_31
+  - first:
+      213: 6517059697632087709
+    second: UIControlsV11_32
+  - first:
+      213: 8767382805116887958
+    second: UIControlsV11_33
+  - first:
+      213: 3934355596316715590
+    second: UIControlsV11_34
+  - first:
+      213: 8348481223484967267
+    second: UIControlsV11_35
+  - first:
+      213: 8492412445836682847
+    second: UIControlsV11_36
+  - first:
+      213: -6530433198231204021
+    second: UIControlsV11_37
+  - first:
+      213: -606001611458349512
+    second: UIControlsV11_38
+  - first:
+      213: -3162621130179386260
+    second: UIControlsV11_39
+  - first:
+      213: 7927962194862129031
+    second: UIControlsV11_40
+  - first:
+      213: -7104166625540746620
+    second: UIControlsV11_41
+  - first:
+      213: -7687456848193471977
+    second: UIControlsV11_42
+  - first:
+      213: 1789443744799403055
+    second: UIControlsV11_43
+  - first:
+      213: -7917395708807453568
+    second: UIControlsV11_44
+  - first:
+      213: -7015163775866615582
+    second: UIControlsV11_45
+  - first:
+      213: -1739668872193437081
+    second: UIControlsV11_46
+  - first:
+      213: -8031637875826463311
+    second: UIControlsV11_47
+  - first:
+      213: 7810752065114063089
+    second: UIControlsV11_48
+  - first:
+      213: -6078766179674216058
+    second: UIControlsV11_49
+  - first:
+      213: 764657058221279274
+    second: UIControlsV11_50
+  - first:
+      213: 3235841057975512089
+    second: UIControlsV11_51
+  - first:
+      213: -2669206807428483416
+    second: UIControlsV11_52
+  - first:
+      213: -6852684813984869162
+    second: UIControlsV11_53
+  - first:
+      213: -6317089377326402450
+    second: UIControlsV11_54
+  - first:
+      213: 2074000772482486407
+    second: UIControlsV11_55
+  - first:
+      213: -4200312699732705509
+    second: UIControlsV11_56
+  - first:
+      213: 8551445728020481156
+    second: UIControlsV11_57
+  - first:
+      213: -8721504595310428869
+    second: UIControlsV11_58
+  - first:
+      213: 7963054212264468323
+    second: UIControlsV11_59
+  - first:
+      213: 7611946245678171763
+    second: UIControlsV11_60
+  - first:
+      213: -2407368348959783971
+    second: UIControlsV11_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Control0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 533
+        width: 320
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeffdf1d86d1c0449b27f0bfb82002e
+      internalID: -679091621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Control1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 533
+        width: 320
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ccd2b5edd58234eb98a75768db758c
+      internalID: -1971733781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Control2
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 533
+        width: 320
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45f027118995004b946c922d35d0853
+      internalID: -762098575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Control3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 118
+        width: 316
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed50fa8b0c48d6543a8473fab3ae8994
+      internalID: -660192462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Control4
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 118
+        width: 294
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ab482d5e2906740af98db30788ae28
+      internalID: 1366926127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Control5
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 175
+        width: 516
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0b7e873a774f34ebcb376e1e8539fb
+      internalID: -1888125307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 91bdf4b780d9d234b852c8e6d3ce1a1e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Control0: -679091621
+      Control1: -1971733781
+      Control2: -762098575
+      Control3: -660192462
+      Control4: 1366926127
+      Control5: -1888125307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

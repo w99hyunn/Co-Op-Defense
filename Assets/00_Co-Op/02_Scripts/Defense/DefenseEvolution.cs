@@ -23,9 +23,9 @@ namespace OpenFrame
         public string UpgradeDescription(int choice)
         {
             int level=Evolution[choice];
-            string[] first = { "빨강 → 범위 폭발탄\n줄 완성: 폭발 범위 확대", "파랑 → 일직선 관통 레이저\n줄 완성: 광선 폭 확대", "초록 → 적 3마리 연쇄 냉기\n줄 완성: 연쇄 수 +3" };
-            string[] second = { "빨강 → 주변에 추가 집속 폭발\n줄 완성: 큰 폭발 2회", "파랑 → 두 갈래 관통 광선\n줄 완성: 넓은 광선", "초록 → 5마리 연쇄 + 강한 둔화\n줄 완성: 8마리 전파" };
-            string[] third = { "빨강 → 세 지점 연쇄 포격", "파랑 → 세 갈래 관통 광선", "초록 → 7마리 연쇄 + 빙결" };
+            string[] first = { "범위 폭발탄\n줄 완성 · 범위 확대", "관통 레이저\n줄 완성 · 광선 확대", "3마리 연쇄 냉기\n줄 완성 · 연쇄 +3" };
+            string[] second = { "추가 집속 폭발\n줄 완성 · 대폭발 2회", "두 갈래 관통 광선\n줄 완성 · 광선 확대", "5마리 연쇄 · 둔화\n줄 완성 · 8마리 전파" };
+            string[] third = { "세 지점 연쇄 포격", "세 갈래 관통 광선", "7마리 연쇄 · 빙결" };
             return level==0 ? first[choice] : level==1 ? second[choice] : level==2 ? third[choice] : "최종 진화 장착 완료";
         }
         private void EvolvedAttack(Vector2Int cell,int element,DefenseEnemy target,float damage,Vector2 source)

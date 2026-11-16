@@ -71,17 +71,19 @@ namespace OpenFrame.Editor
             importer.maxTextureSize=4096;importer.textureCompression=TextureImporterCompression.Uncompressed;importer.isReadable=true;importer.alphaIsTransparency=true;importer.mipmapEnabled=false;importer.filterMode=FilterMode.Bilinear;
             var settings=new TextureImporterSettings();importer.ReadTextureSettings(settings);settings.spriteMeshType=SpriteMeshType.FullRect;importer.SetTextureSettings(settings);importer.SaveAndReimport();return importer;
         }
-        internal static Sprite[] Slice(string path,Rect[] rectangles,string prefix)
+        internal static Sprite[] Slice(string path,Rect[] rectangles,string prefix,Vector4[] borders=null)
         {
             var importer=AssetImporter.GetAtPath(path);var factories=new SpriteDataProviderFactories();factories.Init();var provider=factories.GetSpriteEditorDataProviderFromObject(importer);provider.InitSpriteEditorDataProvider();
             var edit=provider.GetDataProvider<ISpriteFrameEditCapability>();if(edit==null)throw new InvalidOperationException("Sprite capability unavailable");
             var capability=edit.GetEditCapability();foreach(var required in new[]{EEditCapability.CreateAndDeleteSprite,EEditCapability.EditSpriteRect,EEditCapability.EditSpriteName,EEditCapability.EditPivot})
                 if(!capability.HasCapability(required))throw new InvalidOperationException("Sprite capability denied: "+required);
             var old=provider.GetSpriteRects();var rects=new SpriteRect[rectangles.Length];
+            if(borders!=null&&!capability.HasCapability(EEditCapability.EditBorder))throw new InvalidOperationException("Sprite border capability denied");
             for(int i=0;i<rects.Length;i++)
             {
                 string name=prefix+i;var previous=old.FirstOrDefault(r=>r.name==name);
                 rects[i]=new SpriteRect{name=name,rect=rectangles[i],pivot=new Vector2(.5f,.5f),alignment=SpriteAlignment.Center,spriteID=previous!=null ? previous.spriteID:GUID.Generate()};
+                if(borders!=null)rects[i].border=borders[i];
             }
             provider.SetSpriteRects(rects);var names=provider.GetDataProvider<ISpriteNameFileIdDataProvider>();
             if(names==null)throw new InvalidOperationException("Sprite ID provider unavailable");names.SetNameFileIdPairs(rects.Select(r=>new SpriteNameFileIdPair(r.name,r.spriteID)));

@@ -13,13 +13,13 @@ namespace OpenFrame
         {
             TryGetComponent<RectTransform>(out rect);
             parent = (RectTransform)rect.parent;
-            rect.sizeDelta = new Vector2(900, 1800);
+            rect.sizeDelta = DefenseArena.StageSize;
             Fit();
         }
 
         private void Fit()
         {
-            float scale = Mathf.Min(parent.rect.width / 900f, parent.rect.height / 1800f);
+            float scale = Mathf.Min(parent.rect.width / DefenseArena.StageSize.x, parent.rect.height / DefenseArena.StageSize.y);
             rect.localScale = new Vector3(scale, scale, 1);
         }
     }

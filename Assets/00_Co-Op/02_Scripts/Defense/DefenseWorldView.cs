@@ -16,15 +16,17 @@ namespace OpenFrame
         public DefenseWorldEnemy[] enemies;
         public Sprite[] weaponSprites;
         public Sprite[] monsterArt, supportArt;
+        public Sprite[] blockArt;
         public Sprite ringSprite, lineSprite;
         public SpriteRenderer[] monsterShadows, supportShadows;
+        public LineRenderer[] effectLines;
         private readonly float[] shotLife=new float[96],effectLife=new float[128],effectRadius=new float[128];
         private readonly Vector2[] shotFrom=new Vector2[96],shotTo=new Vector2[96];
         private readonly bool[] rings=new bool[128];
         private int shotIndex,effectIndex;
         public static Vector3 Position(Vector2 logical)=>new Vector3(logical.x*.01f,logical.y*.01f,0);
         private void LateUpdate()=>FitCamera();
-        public void FitCamera(){worldCamera.orthographicSize=Mathf.Max(9,4.5f/worldCamera.aspect);}
+        public void FitCamera(){worldCamera.orthographicSize=Mathf.Max(DefenseArena.StageSize.y*.005f,4.5f/worldCamera.aspect);}
         public bool GetCell(Vector2 screen,out Vector2Int cell)
         {
             var p=worldCamera.ScreenToWorldPoint(new Vector3(screen.x,screen.y,-worldCamera.transform.position.z));
@@ -51,8 +53,8 @@ namespace OpenFrame
                 int element=model.Board[i%10,i/10];blocks[i].gameObject.SetActive(element!=0);
                 int level=element==0 ? 0:model.Evolution[element-1];weapons[i].gameObject.SetActive(level>0);
                 if(element==0)continue;
-                blocks[i].color=DefenseView.ElementColor(element);
-                if(level>0){weapons[i].sprite=weaponSprites[(element-1)*3+level-1];weapons[i].color=model.Overdrive>0 ? new Color(1,.92f,.5f):Color.white;}
+                blocks[i].sprite=blockArt[element-1];blocks[i].color=Color.white;FitArtwork(blocks[i],Vector2.one*.6f);
+                if(level>0){weapons[i].sprite=weaponSprites[(element-1)*3+level-1];FitArtwork(weapons[i],Vector2.one*.52f);weapons[i].color=model.Overdrive>0 ? new Color(1,.92f,.5f):Color.white;}
             }
             for(int i=0;i<16;i++)
             {
@@ -72,12 +74,12 @@ namespace OpenFrame
                 var art=monsterArt[data.Kind];visual.Body.sprite=art;
                 visual.Body.size=new Vector2(size,size*art.rect.height/art.rect.width);
                 float bounce=Mathf.Sin(model.Elapsed*(data.Kind==1 ? 16:9)+data.Id)*.025f;
-                visual.Body.transform.localScale=new Vector3(1-bounce,1+bounce,1);
+                visual.Body.transform.localScale=Vector3.one;visual.Body.transform.position+=Vector3.up*bounce;
                 visual.Body.flipX=data.Progress>.5f;
                 visual.Body.color=data.FrostTime>0 ? new Color(.65f,.9f,1):Color.white;
                 if(data.HitFlash>0)visual.Body.color=new Color(1,.7f,.55f);
                 visual.Label.transform.localPosition=new Vector3(0,-visual.Body.size.y*.46f,-.01f);
-                monsterShadows[i].transform.position=visual.Body.transform.position+new Vector3(0,-size*.3f,0);monsterShadows[i].size=new Vector2(size*.8f,size*.24f);
+                monsterShadows[i].transform.position=visual.Body.transform.position+new Vector3(0,-size*.3f,0);FitArtwork(monsterShadows[i],new Vector2(size*.8f,size*.24f));
                 visual.Label.gameObject.SetActive(data.Kind==3 || data.HitFlash>0);
                 visual.Label.text=Mathf.CeilToInt(data.Health).ToString();
             }
@@ -89,7 +91,7 @@ namespace OpenFrame
             for(int i=0;i<effects.Length;i++)
             {
                 effectLife[i]=Mathf.Max(0,effectLife[i]-dt);effects[i].gameObject.SetActive(effectLife[i]>0);
-                float t=effectLife[i]/.18f;var c=effects[i].color;c.a=t;effects[i].color=c;
+                float t=effectLife[i]/.18f;var c=effects[i].color;c.a=t;effects[i].color=c;effectLines[i].startColor=c;effectLines[i].endColor=c;
                 if(rings[i])effects[i].size=Vector2.one*effectRadius[i]*(1-t*.6f)*.015f;
             }
         }
@@ -108,13 +110,21 @@ namespace OpenFrame
             }
             if(effect.Kind!=1){Segment(effect.From,effect.To,effect.Kind==4 ? 5:effect.Radius,effect.Kind==4 ? new Color(1,.55f,.25f):new Color(.3f,.85f,1));return;}
             int i=effectIndex++%effects.Length;effectLife[i]=.18f;rings[i]=true;effectRadius[i]=effect.Radius;
-            effects[i].sprite=ringSprite;effects[i].color=new Color(1,.8f,.35f);effects[i].transform.position=Position(effect.To);effects[i].transform.rotation=Quaternion.identity;
+            effectLines[i].enabled=false;effects[i].enabled=true;effects[i].sprite=ringSprite;effects[i].color=new Color(1,.8f,.35f);effects[i].transform.position=Position(effect.To);effects[i].transform.rotation=Quaternion.identity;
         }
         private void Segment(Vector2 from,Vector2 to,float width,Color color)
         {
             int i=effectIndex++%effects.Length;effectLife[i]=.18f;rings[i]=false;effects[i].sprite=lineSprite;effects[i].color=color;
-            effects[i].transform.position=Position((from+to)*.5f);effects[i].size=new Vector2(Vector2.Distance(from,to)*.01f,Mathf.Clamp(width,2,5)*.01f);
-            effects[i].transform.rotation=Quaternion.Euler(0,0,Mathf.Atan2(to.y-from.y,to.x-from.x)*Mathf.Rad2Deg);
+            effects[i].enabled=false;var line=effectLines[i];line.enabled=true;
+            line.SetPosition(0,Position(from));line.SetPosition(1,Position(to));
+            line.startWidth=line.endWidth=Mathf.Clamp(width,2,5)*.01f;
+            line.startColor=line.endColor=color;
+        }
+        public static void FitArtwork(SpriteRenderer renderer,Vector2 bounds)
+        {
+            var size=renderer.sprite.rect.size;
+            renderer.size=size*Mathf.Min(bounds.x/size.x,bounds.y/size.y);
+            renderer.transform.localScale=Vector3.one;
         }
         public void Clear()
         {

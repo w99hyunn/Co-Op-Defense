@@ -653,7 +653,7 @@ TextureImporter:
         serializedVersion: 2
         x: 397
         y: 431
-        width: 327
+        width: 248
         height: 224
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -673,9 +673,9 @@ TextureImporter:
       name: ReferenceWeapon6
       rect:
         serializedVersion: 2
-        x: 724
+        x: 720
         y: 421
-        width: 362
+        width: 287
         height: 268
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -695,9 +695,9 @@ TextureImporter:
       name: ReferenceWeapon7
       rect:
         serializedVersion: 2
-        x: 1086
+        x: 1080
         y: 432
-        width: 304
+        width: 310
         height: 282
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -741,7 +741,7 @@ TextureImporter:
         serializedVersion: 2
         x: 385
         y: 79
-        width: 339
+        width: 238
         height: 276
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -761,9 +761,9 @@ TextureImporter:
       name: ReferenceWeapon10
       rect:
         serializedVersion: 2
-        x: 724
+        x: 701
         y: 76
-        width: 362
+        width: 291
         height: 293
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -783,9 +783,9 @@ TextureImporter:
       name: ReferenceWeapon11
       rect:
         serializedVersion: 2
-        x: 1086
+        x: 1060
         y: 72
-        width: 317
+        width: 343
         height: 334
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
