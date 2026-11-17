@@ -8,6 +8,8 @@ namespace OpenFrame.Editor
     {
         public static void Apply(DefenseView view)
         {
+            foreach (var button in view.GetComponentsInChildren<UnityEngine.UI.Button>(true))
+                if (!button.TryGetComponent<DefenseButtonMotion>(out _)) button.gameObject.AddComponent<DefenseButtonMotion>();
             var icons=DefenseReferenceUI.Atlas("UIControlsV11.png",3,2,"Control",new[]{0f,1f/3f,.61f,1f});
             var frames=DefenseReferenceUI.Atlas("UIFramesV11.png",2,1,"Frame",new[]{0f,.38f,1f});
             string accentPath="Assets/00_Co-Op/04_Images/UIAccentsV9.png";
@@ -34,29 +36,32 @@ namespace OpenFrame.Editor
             Place(view.clearText.transform,450,1370,750,58,36);
 
             // The preview remains a transparent raycast target for dragging a held block.
-            Place(view.offers[0].background.transform,150,240,190,220);
+            Place(view.offers[0].background.transform,150,248,240,240);
             view.offers[0].background.color=Color.clear;
-            var heldBase=Node(view.offers[0].background.transform,"HeldBase");Set(heldBase,view.world.supportShadows[0].sprite);Place(heldBase,0,-74,170,40);heldBase.SetAsFirstSibling();heldBase.TryGetComponent<UnityEngine.UI.Image>(out var heldImage);heldImage.color=new Color(1,1,1,.18f);
+            var heldBase=Node(view.offers[0].background.transform,"HeldBase");Set(heldBase,view.world.supportShadows[0].sprite);Place(heldBase,0,-92,180,40);heldBase.SetAsFirstSibling();heldBase.TryGetComponent<UnityEngine.UI.Image>(out var heldImage);heldImage.color=new Color(1,1,1,.18f);
+            view.heldShadow=heldBase.gameObject;
             view.offers[0].label.rectTransform.sizeDelta=new Vector2(180,52);
             var gold=stage.Find("GoldIcon");gold.gameObject.SetActive(true);Set(gold,icons[3]);Place(gold,386,350,38,38);
             var wallet=stage.Find("GoldChip");wallet.gameObject.SetActive(true);Set(wallet,icons[5]);Place(wallet,450,350,220,70);wallet.SetSiblingIndex(gold.GetSiblingIndex());gold.SetSiblingIndex(wallet.GetSiblingIndex()+1);
             Place(view.supply.transform,470,350,140,52,38);
-            var parts=Node(stage,"PartsIcon");Set(parts,icons[4]);Place(parts,765,350,36,36);
-            Place(view.record.transform,818,350,65,48,34);
-            Set(view.redrawButton.transform,summon);Place(view.redrawButton.transform,450,240,340,142);
+            var parts=Node(stage,"PartsIcon");Set(parts,icons[4]);Place(parts,755,350,32,32);
+            Place(view.record.transform,801,350,65,48,32);
+            Set(view.redrawButton.transform,summon);Place(view.redrawButton.transform,450,245,320,134);
             Place(view.drawLabel.transform,0,22,320,64,44);
             var price=view.redrawButton.transform.Find("PriceChip");price.TryGetComponent<UnityEngine.UI.Image>(out var priceImage);Set(price,icons[5]);
             Place(price,0,-29,145,44);
             var coin=price.Find("Coin");coin.gameObject.SetActive(true);Set(coin,icons[3]);Place(coin,-32,0,28,28);
             coin.TryGetComponent<UnityEngine.UI.Image>(out var coinImage);coinImage.color=Color.white;
             Place(view.rollCostLabel.transform,18,0,90,42,32);
-            Set(view.rotateButton.transform,icons[1]);Place(view.rotateButton.transform,710,240,82,82);
+            Set(view.rotateButton.transform,icons[1]);Place(view.rotateButton.transform,785,290,82,82);
             foreach(var label in view.rotateButton.GetComponentsInChildren<TMP_Text>(true))label.gameObject.SetActive(false);
-            Set(view.rescueButton.transform,icons[2]);Place(view.rescueButton.transform,815,240,82,82);
+            Set(view.rescueButton.transform,icons[2]);Place(view.rescueButton.transform,785,190,82,82);
             foreach(var label in view.rescueButton.GetComponentsInChildren<TMP_Text>(true))label.gameObject.SetActive(false);
-            var cost=view.rescueButton.transform.Find("PartsCost");cost.gameObject.SetActive(true);Place(cost,16,-62,60,40,32);
-            var costIcon=Node(view.rescueButton.transform,"CostIcon");Set(costIcon,icons[4]);Place(costIcon,-20,-62,28,28);
+            var cost=view.rescueButton.transform.Find("PartsCost");cost.gameObject.SetActive(true);Place(cost,16,-52,50,40,30);
+            var costIcon=Node(view.rescueButton.transform,"CostIcon");Set(costIcon,icons[4]);Place(costIcon,-18,-52,24,24);
             cost.TryGetComponent<TMP_Text>(out var costLabel);costLabel.text="4";
+            view.rescueCostLabel=costLabel;
+            costIcon.TryGetComponent<UnityEngine.UI.Image>(out view.rescueCostIcon);
             for(int i=0;i<3;i++)
             {
                 var oldCard=stage.Find("WeaponCard"+i);if(oldCard!=null)oldCard.gameObject.SetActive(false);
@@ -65,11 +70,10 @@ namespace OpenFrame.Editor
             }
 
             var divider=Node(stage,"EvolutionDivider");Set(divider,accents[3]);Place(divider,450,108,770,7);
-            view.modalSprites=frames;Set(view.overlay.transform.Find("Modal"),frames[0]);
-            view.modal=(RectTransform)view.overlay.transform.Find("Modal");
+            view.modalSprites=frames;Set(view.modal,frames[0]);
             view.modal.TryGetComponent<UnityEngine.UI.Image>(out var modalImage);modalImage.type=UnityEngine.UI.Image.Type.Simple;modalImage.preserveAspect=true;
             view.overlay.TryGetComponent<UnityEngine.UI.Image>(out var scrim);scrim.color=new Color(.16f,.12f,.11f,.6f);
-            Place(view.modal,0,0,760,760);view.overlay.transform.Find("ModalAccent").gameObject.SetActive(false);
+            Place(view.modal,0,0,760,760);view.overlay.GetComponentsInChildren<RectTransform>(true).First(t=>t.name=="ModalAccent").gameObject.SetActive(false);
             Place(view.overlayTitle.transform,0,330,650,70,42);
             Set(view.primaryButton.transform,summon);Place(view.primaryButton.transform,0,-280,330,135);Place(view.primaryLabel.transform,0,5,280,70,40);
             for(int i=0;i<3;i++)
@@ -84,6 +88,15 @@ namespace OpenFrame.Editor
                 var select=Label(action,"SelectLabel",view.drawLabel);select.text="선택";Place(select.transform,0,1,100,44,32);
             }
             view.unitSprites=details.Take(3).ToArray();view.world.blockArt=view.unitSprites;
+            var offerRoot = view.offers[0].background.transform.Find("PieceContent");
+            if (offerRoot == null)
+            {
+                offerRoot = new GameObject("PieceContent", typeof(RectTransform)).transform;
+                offerRoot.SetParent(view.offers[0].background.transform, false);
+                foreach (var cell in view.offers[0].cells) cell.transform.SetParent(offerRoot, false);
+            }
+            view.offerContent = (RectTransform)offerRoot;
+            Place(offerRoot,0,0,216,216);
             foreach(var offer in view.offers)
             {
                 offer.weapons=new UnityEngine.UI.Image[offer.cells.Length];
@@ -104,6 +117,15 @@ namespace OpenFrame.Editor
                 renderer.sprite=shadow;DefenseWorldView.FitArtwork(renderer,new Vector2(.52f,.18f));
             }
             view.world.effectLines=new LineRenderer[view.world.effects.Length];
+            view.world.clearEchoes=new SpriteRenderer[60];
+            for (int i=0;i<60;i++)
+            {
+                var found=view.world.transform.Find("ClearEcho"+i);
+                if(found==null){var go=new GameObject("ClearEcho"+i,typeof(SpriteRenderer));found=go.transform;found.SetParent(view.world.transform,false);}
+                found.TryGetComponent<SpriteRenderer>(out var echo);echo.sprite=view.unitSprites[0];echo.sharedMaterial=view.world.blocks[0].sharedMaterial;
+                echo.drawMode=SpriteDrawMode.Sliced;echo.sortingOrder=view.world.blocks[0].sortingOrder+2;echo.gameObject.SetActive(false);
+                view.world.clearEchoes[i]=echo;
+            }
             for(int i=0;i<view.world.effects.Length;i++)
             {
                 var effect=view.world.effects[i];
@@ -117,6 +139,24 @@ namespace OpenFrame.Editor
                 if(cell.name.StartsWith("PartnerCell_")||cell.name.StartsWith("CenterCell_")||cell.name.StartsWith("Cell_")){cell.sprite=accents[0];cell.color=new Color(.55f,.48f,.43f,cell.name.StartsWith("PartnerCell_") ? .10f : cell.name.StartsWith("CenterCell_") ? .15f : .23f);DefenseWorldView.FitArtwork(cell,cell.size);}
             view.overlayBody.fontSize=34;
             foreach(var enemy in view.world.enemies)enemy.Label.fontSize=3;
+            var motionRoot = view.overlay.transform.Find("PopupContent");
+            if (motionRoot == null)
+            {
+                motionRoot = new GameObject("PopupContent", typeof(RectTransform)).transform;
+                motionRoot.SetParent(view.overlay.transform, false);
+                foreach (var child in view.overlay.transform.Cast<Transform>().ToArray())
+                    if (child != motionRoot) child.SetParent(motionRoot, false);
+            }
+            view.popupContent = (RectTransform)motionRoot;
+            Place(motionRoot,0,0,900,2000);
+            if (!view.overlay.TryGetComponent<CanvasGroup>(out var group)) group=view.overlay.AddComponent<CanvasGroup>();
+            view.popupGroup=group;
+            view.upgradeGroups = new CanvasGroup[view.upgrades.Length];
+            for (int i = 0; i < view.upgrades.Length; i++)
+            {
+                if (!view.upgrades[i].TryGetComponent<CanvasGroup>(out var rowGroup)) rowGroup=view.upgrades[i].gameObject.AddComponent<CanvasGroup>();
+                view.upgradeGroups[i]=rowGroup;
+            }
             ApplyTypography(view);
             view.rollCostLabel.color=Color.white;view.supply.color=Color.white;view.monsterCount.color=Color.white;
             foreach(var button in view.upgrades){button.transform.Find("SelectAction/SelectLabel").TryGetComponent<TMP_Text>(out var label);label.color=Color.white;label.fontSharedMaterial=view.drawLabel.fontSharedMaterial;label.alignment=TextAlignmentOptions.Midline;}
@@ -169,3 +209,5 @@ namespace OpenFrame.Editor
         }
     }
 }
+
+

@@ -28,6 +28,7 @@ namespace OpenFrame
         public DefenseWorldView world;
         public DefenseEvolutionGraphic evolutionGraphic;
         public TMP_Text[] upgradeLabels;
+        public TMP_Text[] upgradeActionLabels = new TMP_Text[3];
         public TMP_Text drawLabel;
         public TMP_Text rollCostLabel;
         public TMP_Text supportChargeLabel;
@@ -45,6 +46,10 @@ namespace OpenFrame
         public UnityEngine.UI.Image[] projectiles;
         public UnityEngine.UI.Image[] ghosts;
         public DefenseOfferView[] offers;
+        public RectTransform offerContent;
+        public GameObject heldShadow;
+        public TMP_Text rescueCostLabel;
+        public UnityEngine.UI.Image rescueCostIcon;
         public DefenseEnemyView[] enemies;
         public TMP_Text status;
         public TMP_Text monsterCount;
@@ -66,6 +71,9 @@ namespace OpenFrame
         public TMP_Text pauseLabel;
         public GameObject overlay;
         public RectTransform modal;
+        public RectTransform popupContent;
+        public CanvasGroup popupGroup;
+        public CanvasGroup[] upgradeGroups;
         public Sprite[] modalSprites;
         public TMP_Text overlayTitle;
         public TMP_Text overlayBody;
@@ -79,6 +87,43 @@ namespace OpenFrame
         public AudioClip clearSound;
 
         private float soundCooldown;
+        private float offerTime = 1;
+        private float modalTime = 1;
+        private float coinTime = 1;
+        private int lastCoins = -1;
+        private int lastSupport;
+        private float supportTime = 1;
+        private bool popupVisible;
+        private int summonedSupport = -1;
+        private float clearDuration;
+        private float rejectionTime;
+
+        public void AnimateOffer() => offerTime = 0;
+        public void RejectPlacement() => rejectionTime = .22f;
+
+        private void LateUpdate()
+        {
+            float dt = Mathf.Min(Time.unscaledDeltaTime, .1f);
+            offerTime = Mathf.Min(1, offerTime + dt / .2f);
+            float offerScale = Mathf.Lerp(.9f, 1, 1 - Mathf.Pow(1 - offerTime, 3));
+            offerContent.localScale = Vector3.one * offerScale;
+            offerContent.anchoredPosition = Vector2.down * (12 * (1 - offerTime));
+            rejectionTime = Mathf.Max(0,rejectionTime-dt);
+            offerContent.anchoredPosition += Vector2.right * (Mathf.Sin((.22f-rejectionTime)*65)*10*rejectionTime/.22f);
+            modalTime = Mathf.MoveTowards(modalTime, popupVisible ? 1 : 0, dt / (popupVisible ? .22f : .12f));
+            float ease = 1 - Mathf.Pow(1 - modalTime, 3);
+            popupContent.localScale = Vector3.one * Mathf.Lerp(.985f, 1, ease);
+            popupContent.anchoredPosition = Vector2.down * (12 * (1 - ease));
+            popupGroup.alpha = ease;
+            for (int i = 0; i < upgradeGroups.Length; i++)
+                upgradeGroups[i].alpha = Mathf.SmoothStep(0, 1, Mathf.Clamp01(modalTime * 1.65f - i * .18f));
+            if (!popupVisible && modalTime == 0) overlay.SetActive(false);
+            coinTime = Mathf.Min(1, coinTime + dt / .22f);
+            supply.transform.localScale = Vector3.one * (1 + .075f * Mathf.Sin(coinTime * Mathf.PI));
+            supportTime = Mathf.Min(1, supportTime + dt / .3f);
+            for (int i = 0; i < supportPips.Length; i++)
+                supportPips[i].transform.localScale = Vector3.one * (i == lastSupport - 1 ? 1 + .2f * Mathf.Sin(supportTime * Mathf.PI) : 1);
+        }
 
         private float clearTime;
         private static readonly Color[] Palette =
@@ -92,6 +137,7 @@ namespace OpenFrame
 
         public void Refresh(DefenseModel model, int selected)
         {
+            heldShadow.SetActive(model.HasPiece);
             for (int i = 0; i < offers.Length; i++)
             {
                 offers[i].background.gameObject.SetActive(i == 0);
@@ -100,7 +146,7 @@ namespace OpenFrame
                 var cells = piece.Cells();
                 int width = 1, height = 1;
                 foreach (var p in cells) { width = Math.Max(width, p.x + 1); height = Math.Max(height, p.y + 1); }
-                float pitch=Mathf.Min(40,160f/width,160f/height);
+                float pitch=Mathf.Min(58,216f/width,216f/height);
                 for (int j = 0; j < 4; j++)
                 {
                     offers[i].cells[j].gameObject.SetActive(model.HasPiece);
@@ -114,7 +160,7 @@ namespace OpenFrame
                     if(level>0)offers[i].weapons[j].sprite=world.weaponSprites[(piece.Element-1)*3+level-1];
                 }
                 offers[i].background.color = Color.clear;
-                offers[i].label.rectTransform.anchoredPosition=new Vector2(0,model.HasPiece ? -96 : 0);
+                offers[i].label.rectTransform.anchoredPosition=new Vector2(0,model.HasPiece ? -120 : 0);
                 offers[i].label.fontSize=model.HasPiece ? 32:36;
                 offers[i].label.text = model.HasPiece ? (piece.Element == 1 ? "화력" : piece.Element == 2 ? "속사" : "냉기") : "";
             }
@@ -123,7 +169,8 @@ namespace OpenFrame
                 upgrades[i].interactable=model.Evolution[i]<3;
                 var description=model.UpgradeDescription(i);
                 int lineBreak=description.IndexOf('\n');
-                upgradeLabels[i].text=lineBreak<0 ? description : description.Substring(0,lineBreak)+"\n<size=32><color=#746B65>"+description.Substring(lineBreak+1)+"</color></size>";
+                upgradeLabels[i].text=lineBreak<0 ? description : description.Substring(0,lineBreak)+"\n<size=28><color=#746B65>"+description.Substring(lineBreak+1)+"</color></size>";
+                upgradeActionLabels[i].text = model.Evolution[i] < 3 ? "선택" : "완료";
                 upgradeIcons[i].sprite=world.weaponSprites[i*3+Math.Min(model.Evolution[i],2)];
                 evolutionLevels[i].text=$"Lv.{model.Evolution[i]+1}";
                 evolutionIcons[i].sprite=world.weaponSprites[i*3+Math.Max(0,model.Evolution[i]-1)];
@@ -132,12 +179,15 @@ namespace OpenFrame
             bool playing = model.IsPlaying;
             rotateButton.interactable = playing && model.HasPiece;
             redrawButton.interactable = playing && model.Coins >= model.RollCost;
-            rescueButton.interactable = playing;
+            rescueButton.interactable = model.CanRescue;
             pauseButton.interactable = model.Phase == DefensePhase.Combat;
             pauseLabel.text = model.Paused ? "계속" : "II";
             var phase = model.Phase;
             bool show = phase != DefensePhase.Combat || model.Paused;
-            overlay.SetActive(show);
+            popupVisible = show;
+            popupGroup.interactable = show;
+            popupGroup.blocksRaycasts = show;
+            if (show) overlay.SetActive(true);
             if(show)
             {
                 bool compact=model.Paused||phase==DefensePhase.Ready;
@@ -145,13 +195,16 @@ namespace OpenFrame
                 modalImage.sprite=modalSprites[compact ? 1:0];
                 float height=760*modalImage.sprite.rect.height/modalImage.sprite.rect.width;
                 modal.sizeDelta=new Vector2(760,height);
-                overlayTitle.rectTransform.anchoredPosition=new Vector2(0,height*.5f-height*(compact ? .125f:.06f));
-                primaryButton.image.rectTransform.anchoredPosition=new Vector2(0,-height*.5f+100);
+                overlayTitle.rectTransform.anchoredPosition=new Vector2(0,height*.5f-82);
+                primaryButton.image.rectTransform.anchoredPosition=new Vector2(0,-height*.5f+90);
                 overlayBody.rectTransform.sizeDelta=new Vector2(650,height-220);
                 overlayBody.rectTransform.anchoredPosition=new Vector2(0,15);
             }
-            foreach (var button in upgrades) button.gameObject.SetActive(phase == DefensePhase.Upgrade);
-            primaryButton.gameObject.SetActive(phase != DefensePhase.Upgrade);
+            if (show)
+            {
+                foreach (var button in upgrades) button.gameObject.SetActive(phase == DefensePhase.Upgrade);
+                primaryButton.gameObject.SetActive(phase != DefensePhase.Upgrade);
+            }
             if (model.Paused)
             {
                 overlayTitle.text = "일시정지";
@@ -160,7 +213,7 @@ namespace OpenFrame
             }
             else if (phase == DefensePhase.Ready)
             {
-                overlayTitle.text = "작은 블록, 거대한 방어";
+                overlayTitle.text = "정원 방어";
                 overlayBody.text = "";
                 primaryLabel.text = "방어 시작";
             }
@@ -172,7 +225,7 @@ namespace OpenFrame
             else if (phase == DefensePhase.Won || phase == DefensePhase.Lost)
             {
                 overlayTitle.text = phase == DefensePhase.Won ? "방어 성공" : "게임 종료";
-                overlayBody.text = $"<size=72><color=#D94230>{model.Kills}</color></size>\n처치한 몬스터\n\n<size=32>WAVE {model.Wave}   ·   {model.Elapsed:0}초\n완성 {model.Lines}줄   /   최고 {model.BestClear}줄</size>";
+                overlayBody.text = $"<size=72><color=#61794B>{model.Kills}</color></size>\n처치한 몬스터\n\n<size=32>WAVE {model.Wave}   ·   {model.Elapsed:0}초\n완성 {model.Lines}줄   /   최고 {model.BestClear}줄</size>";
                 primaryLabel.text = "다시 시작";
             }
             RefreshLive(model);
@@ -184,15 +237,23 @@ namespace OpenFrame
             status.text = $"WAVE {model.Wave:00}";
             monsterCount.text = $"{model.Enemies.Count} / {model.Rules.maximumEnemies}";
             supply.text = model.Coins.ToString();
+            if (lastCoins >= 0 && model.Coins > lastCoins) coinTime = 0;
+            lastCoins = model.Coins;
+            if (model.SupportCharge > lastSupport) supportTime = 0;
+            lastSupport = model.SupportCharge;
             supplyBar.gameObject.SetActive(false);
             drawLabel.text = model.HasPiece ? "리롤" : "블록 생성";
             rollCostLabel.text=model.EmergencyDraw ? "무료" : model.RollCost.ToString();
             supportChargeLabel.text="지원";
-            for(int i=0;i<supportPips.Length;i++)supportPips[i].color=i<model.SupportCharge ? new Color(1,.38f,.25f) : new Color(.45f,.4f,.36f,.3f);
+            for(int i=0;i<supportPips.Length;i++)supportPips[i].color=i<model.SupportCharge ? Color.white : new Color(.49f,.57f,.37f,.5f);
             redrawButton.interactable = model.IsPlaying && model.Coins >= model.RollCost;
+            rescueButton.interactable = model.CanRescue;
+            bool freeRescue = model.CanRescue && model.Salvage < 4;
+            rescueCostLabel.text = freeRescue ? "무료" : "4";
+            rescueCostIcon.gameObject.SetActive(!freeRescue);
             progress.text = model.Overdrive > 0 ? $"해방 {model.Overdrive:0.0}s" : model.Wave == model.Rules.finalWave && model.Spawned == model.WaveSize ? $"정리 {model.FinalCountdown:0}s" : $"{Mathf.Max(0, model.WaveDuration - model.WaveElapsed):0}s";
             float danger=(float)model.Enemies.Count/model.Rules.maximumEnemies;
-            waveBar.fillAmount=danger;waveBar.color=danger>=.8f ? new Color(1,.3f,.2f) : Color.white;
+            waveBar.fillAmount=danger;waveBar.color=danger>=.8f ? new Color(.93f,.46f,.29f) : new Color(.88f,.74f,.32f);
             monsterCount.color=danger>=.8f ? new Color(1,.42f,.28f) : danger>=.6f ? new Color(1,.76f,.4f) : Color.white;
             record.text = model.Salvage.ToString();
         }
@@ -203,7 +264,9 @@ namespace OpenFrame
             soundCooldown = Mathf.Max(0,soundCooldown-dt);
             clearTime = Mathf.Max(0, clearTime - dt);
             clearText.gameObject.SetActive(clearTime > 0);
-            clearText.color = new Color(.85f,.24f,.17f,Mathf.Min(1,clearTime*2));
+            clearText.color = new Color(.27f,.34f,.19f,Mathf.Min(1,clearTime*2));
+            float arrival = Mathf.Clamp01((clearDuration-clearTime)/.18f);
+            clearText.rectTransform.localScale = Vector3.one * Mathf.Lerp(.94f,1,Mathf.SmoothStep(0,1,arrival));
         }
 
         public void ShowShot(DefenseShot shot)
@@ -217,21 +280,31 @@ namespace OpenFrame
         }
         public void ResetEffects()
         {
+            offerTime = modalTime = coinTime = supportTime = 1;
+            lastCoins = -1;
+            lastSupport = 0;
+            summonedSupport = -1;
+            rejectionTime = 0;
+            popupVisible = false;
+            modalTime = 0;
+            popupGroup.alpha = 0;
+            overlay.SetActive(false);
             world.Clear();
             clearTime=0;
+            clearText.gameObject.SetActive(false);
         }
         public void ShowSupport(int reward)
         {
             feedbackSource.PlayOneShot(clearSound,.8f);
-            clearTime=2;
-            clearText.text=reward==0 ? "+ 포격 지원" : reward==1 ? "+ 저격 지원" : "+ 냉기 지원";
+            summonedSupport=reward;
         }
         public void ShowClear(int lines)
         {
-            feedbackSource.PlayOneShot(clearSound, 0.6f);
-
-            clearTime = 1.6f;
-            clearText.text = lines >= 2 ? $"{lines} LINE  ·  OVERDRIVE!" : "LINE CLEAR  ·  무기 해방!";
+            if (summonedSupport < 0) feedbackSource.PlayOneShot(clearSound, 0.6f);
+            clearTime = clearDuration = 1.8f;
+            string reward = summonedSupport == 0 ? "포격 지원" : summonedSupport == 1 ? "저격 지원" : "냉기 지원";
+            clearText.text = summonedSupport >= 0 ? $"{lines}줄 완성 <size=28>· {reward} 소환</size>" : lines >= 2 ? $"{lines}줄 완성 <size=28>· 과충전!</size>" : "줄 완성 <size=28>· 영구 강화</size>";
+            summonedSupport = -1;
         }
 
         public bool GetCell(Vector2 screen,out Vector2Int cell) => world.GetCell(screen,out cell);

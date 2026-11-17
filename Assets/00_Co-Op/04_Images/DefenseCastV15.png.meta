@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: 1ea379eafb82d734dafb406f1c659714
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 591286581505195970
+    second: DefenseCastV15_0
+  - first:
+      213: 4979126732987468358
+    second: DefenseCastV15_1
+  - first:
+      213: -1316735304943145944
+    second: DefenseCastV15_2
+  - first:
+      213: 3755297582339093887
+    second: DefenseCastV15_3
+  - first:
+      213: 5636995973566795444
+    second: DefenseCastV15_4
+  - first:
+      213: -1797306079856919896
+    second: DefenseCastV15_5
+  - first:
+      213: 2115166541020732453
+    second: DefenseCastV15_6
+  - first:
+      213: 1602860218412085178
+    second: DefenseCastV15_7
+  - first:
+      213: 8059056521008590558
+    second: DefenseCastV15_8
+  - first:
+      213: 7082310755145495874
+    second: DefenseCastV15_9
+  - first:
+      213: -3185683427550918665
+    second: DefenseCastV15_10
+  - first:
+      213: 2085062466548485444
+    second: DefenseCastV15_11
+  - first:
+      213: -4262163815131881723
+    second: DefenseCastV15_12
+  - first:
+      213: 8902339565346844469
+    second: DefenseCastV15_13
+  - first:
+      213: 7325055985067794196
+    second: DefenseCastV15_14
+  - first:
+      213: 4961957563342261291
+    second: DefenseCastV15_15
+  - first:
+      213: 8671579464118650677
+    second: DefenseCastV15_16
+  - first:
+      213: 3347404165421582563
+    second: DefenseCastV15_17
+  - first:
+      213: 2738147294020267199
+    second: DefenseCastV15_18
+  - first:
+      213: -1096534263540441723
+    second: DefenseCastV15_19
+  - first:
+      213: -8454744458837148331
+    second: DefenseCastV15_20
+  - first:
+      213: -1096401412695968521
+    second: DefenseCastV15_21
+  - first:
+      213: 82251558742364260
+    second: DefenseCastV15_22
+  - first:
+      213: -3872122201713876427
+    second: DefenseCastV15_23
+  - first:
+      213: 4761667973646009243
+    second: DefenseCastV15_24
+  - first:
+      213: -2637973286936235142
+    second: DefenseCastV15_25
+  - first:
+      213: 4897180405662053026
+    second: DefenseCastV15_26
+  - first:
+      213: 7743252943593519252
+    second: DefenseCastV15_27
+  - first:
+      213: 3535172103702816167
+    second: DefenseCastV15_28
+  - first:
+      213: 1142188038729595559
+    second: DefenseCastV15_29
+  - first:
+      213: -5774190515849753570
+    second: DefenseCastV15_30
+  - first:
+      213: -8893460237568306701
+    second: DefenseCastV15_31
+  - first:
+      213: 6743300641641585268
+    second: DefenseCastV15_32
+  - first:
+      213: -5067003988634011961
+    second: DefenseCastV15_33
+  - first:
+      213: -1003796106158096190
+    second: DefenseCastV15_34
+  - first:
+      213: 3740998678817109774
+    second: DefenseCastV15_35
+  - first:
+      213: -4072754065003802346
+    second: DefenseCastV15_36
+  - first:
+      213: -792958713248308004
+    second: DefenseCastV15_37
+  - first:
+      213: 5608261910727598290
+    second: DefenseCastV15_38
+  - first:
+      213: -3839364380370082933
+    second: DefenseCastV15_39
+  - first:
+      213: -8223053535327398164
+    second: DefenseCastV15_40
+  - first:
+      213: 13130800962484514
+    second: DefenseCastV15_41
+  - first:
+      213: -7604695356496761876
+    second: DefenseCastV15_42
+  - first:
+      213: -2692447199471269599
+    second: DefenseCastV15_43
+  - first:
+      213: 2024692758405535489
+    second: DefenseCastV15_44
+  - first:
+      213: -8345393688335723755
+    second: DefenseCastV15_45
+  - first:
+      213: -7858423299972531656
+    second: DefenseCastV15_46
+  - first:
+      213: -3633918236232917238
+    second: DefenseCastV15_47
+  - first:
+      213: 1742975681136417459
+    second: DefenseCastV15_48
+  - first:
+      213: -3808871752753009038
+    second: DefenseCastV15_49
+  - first:
+      213: 3095616213672251895
+    second: DefenseCastV15_50
+  - first:
+      213: 1404034499023730889
+    second: DefenseCastV15_51
+  - first:
+      213: -2305486393619865914
+    second: DefenseCastV15_52
+  - first:
+      213: -7618422265107209989
+    second: DefenseCastV15_53
+  - first:
+      213: 4181189236290063593
+    second: DefenseCastV15_54
+  - first:
+      213: 572218510816361017
+    second: DefenseCastV15_55
+  - first:
+      213: -7370692393303884413
+    second: DefenseCastV15_56
+  - first:
+      213: -6075808446102126655
+    second: DefenseCastV15_57
+  - first:
+      213: 5309808263082933416
+    second: DefenseCastV15_58
+  - first:
+      213: -5409042731029805776
+    second: DefenseCastV15_59
+  - first:
+      213: 6846674558855676398
+    second: DefenseCastV15_60
+  - first:
+      213: 3820068868630143211
+    second: DefenseCastV15_61
+  - first:
+      213: 7900704447343466248
+    second: DefenseCastV15_62
+  - first:
+      213: -5344812888104949279
+    second: DefenseCastV15_63
+  - first:
+      213: -2842077972301923356
+    second: DefenseCastV15_64
+  - first:
+      213: 2374876076284443060
+    second: DefenseCastV15_65
+  - first:
+      213: -6121933973418155818
+    second: DefenseCastV15_66
+  - first:
+      213: -6526414887348492472
+    second: DefenseCastV15_67
+  - first:
+      213: -7717044865387883672
+    second: DefenseCastV15_68
+  - first:
+      213: -2250682769523793419
+    second: DefenseCastV15_69
+  - first:
+      213: -4929757142851285057
+    second: DefenseCastV15_70
+  - first:
+      213: -4958768043032704157
+    second: DefenseCastV15_71
+  - first:
+      213: -5944167429005184836
+    second: DefenseCastV15_72
+  - first:
+      213: -7759252399503728892
+    second: DefenseCastV15_73
+  - first:
+      213: 2810395368148831736
+    second: DefenseCastV15_74
+  - first:
+      213: 2044545057303693945
+    second: DefenseCastV15_75
+  - first:
+      213: 686916766000049626
+    second: DefenseCastV15_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DefenseCast0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 931
+        width: 224
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beca02451ee6d424e8e2a1f27fdfc7f5
+      internalID: -422155089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 931
+        width: 240
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45f6438a4cee8f4fa210995b895fc90
+      internalID: -114560551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast2
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 931
+        width: 239
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91da672c249bf67458d35039661a9732
+      internalID: 1657955104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast3
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 929
+        width: 268
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0816394f449d5e84e813aefefe0ae7fd
+      internalID: 1708260829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 636
+        width: 215
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2a4352143608240a4b0d14c1b90328
+      internalID: -171726474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 636
+        width: 239
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f47ce9344cf6594d9e14e71f0f1d870
+      internalID: -1745742036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast6
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 636
+        width: 296
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69261b862c11b3644a6430f9c639740f
+      internalID: 1926610948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast7
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 647
+        width: 300
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbfaf254df5d574585b651d76097e98
+      internalID: 1546922275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 337
+        width: 221
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7bf0a1557e1d24c88a3ce7cbb87a5c
+      internalID: -760536762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 337
+        width: 256
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce62e618c8b2c44786c3c95b4ee3a42
+      internalID: -281482812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast10
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 337
+        width: 301
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dc1605b8ccb3c43832377bf3dbca18
+      internalID: -2025103366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast11
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 335
+        width: 302
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cfc654bf97df849ab2df8327f7159c
+      internalID: 1579136827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 26
+        width: 223
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a70c90955f487c4eae5327f83ca77c2
+      internalID: 677654399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast13
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 26
+        width: 255
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b6ba039622a754ebd67eb73c12c3b9
+      internalID: -1844708689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast14
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 26
+        width: 323
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f990270c56a1f246a142abf6edd60c7
+      internalID: -1413080689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefenseCast15
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 20
+        width: 324
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be345efd725ddf1498734966035b3791
+      internalID: -496959459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 061c6b377d569114db8c3dc75b191e76
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DefenseCast0: -422155089
+      DefenseCast1: -114560551
+      DefenseCast10: -2025103366
+      DefenseCast11: 1579136827
+      DefenseCast12: 677654399
+      DefenseCast13: -1844708689
+      DefenseCast14: -1413080689
+      DefenseCast15: -496959459
+      DefenseCast2: 1657955104
+      DefenseCast3: 1708260829
+      DefenseCast4: -171726474
+      DefenseCast5: -1745742036
+      DefenseCast6: 1926610948
+      DefenseCast7: 1546922275
+      DefenseCast8: -760536762
+      DefenseCast9: -281482812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

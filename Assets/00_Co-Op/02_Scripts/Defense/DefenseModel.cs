@@ -174,6 +174,7 @@ namespace OpenFrame
                 for (int col = 0; col < Rules.columns; col++) if (Board[col, row] == 0) { full = false; break; }
                 if (!full) continue;
                 cleared++;
+                RowCleared?.Invoke(row);
                 for (int col = 0; col < Rules.columns; col++)
                 {
                     switch (Board[col, row])
@@ -208,7 +209,7 @@ namespace OpenFrame
 
         public void Rotate(int slot)
         {
-            if (!IsPlaying) return;
+            if (!IsPlaying || !HasPiece || slot < 0 || slot >= Offers.Length) return;
             Offers[slot].Rotation = (Offers[slot].Rotation + 1) % 4;
             Changed?.Invoke();
         }
@@ -230,9 +231,13 @@ namespace OpenFrame
             return false;
         }
 
+        public event Action<int> RowCleared;
+        public event Action<Vector2> EnemyDefeated;
+        public bool CanRescue => IsPlaying && ActiveCells > 0 && (Salvage >= 4 || !HasLegalMove());
+
         public void Rescue()
         {
-            if (!IsPlaying) return;
+            if (!CanRescue) return;
             int best = -1, count = 0;
             for (int y = 0; y < Rules.rows; y++)
             {
@@ -330,6 +335,7 @@ namespace OpenFrame
             {
                 if (Enemies[i].Health > 0) continue;
                 Coins += Enemies[i].Kind == 3 ? 24 : Enemies[i].Kind == 2 ? 6 : 4;
+                EnemyDefeated?.Invoke(DefenseArena.LoopPoint(Enemies[i].Progress));
                 Enemies.RemoveAt(i);
                 Kills++;
                 if (Kills % 4 == 0) Salvage++;

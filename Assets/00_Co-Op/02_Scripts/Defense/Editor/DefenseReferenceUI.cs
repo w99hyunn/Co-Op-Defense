@@ -17,7 +17,6 @@ namespace OpenFrame.Editor
             var v=UnityEngine.Object.FindAnyObjectByType<DefenseView>();
             var w=v.world; var stage=v.transform.Find("Stage");
             InstallWeapons(w);
-            w.monsterArt=Atlas("DefenseMonstersV6.png",4,1,"ReferenceMonster",new[]{0f,.23f,.463f,.706f,1f});
             var panel=Plate("ReferencePanel",Hex("211D31"),Hex("705393"),Hex("151020"),false);
             var button=Plate("ReferenceButton",Hex("403552"),Hex("8E70AD"),Hex("221A32"),true);
             var summon=Plate("ReferenceSummon",Hex("08DCA4"),Hex("7CFFE0"),Hex("086A59"),true);
@@ -68,8 +67,8 @@ namespace OpenFrame.Editor
             Image(stage,"SupportChip",chip,450,1243,172,34);
             v.supportChargeLabel=Text(stage,"SupportCharge",v.status,"지원 0 / 3",450,1244,165,28,19,Hex("C8B6E3"));
             // Same panel language for pause, evolution and results; all text stays editable.
-            var modal=v.overlay.transform.Find("Modal");Place(modal,0,0,730,640);SetImage(modal,panel);
-            var accent=v.overlay.transform.Find("ModalAccent");accent.gameObject.SetActive(true);Place(accent,0,265,720,100);SetImage(accent,button);
+            var modal=v.modal;Place(modal,0,0,730,640);SetImage(modal,panel);
+            var accent=modal.parent.Find("ModalAccent");accent.gameObject.SetActive(true);Place(accent,0,265,720,100);SetImage(accent,button);
             Place(v.overlayTitle.transform,0,269,650,65);Style(v.overlayTitle,35,Color.white);
             Place(v.overlayBody.transform,0,15,650,340);Style(v.overlayBody,24,Hex("C8B6E3"));
             Place(v.primaryButton.transform,0,-230,360,90);SetButton(v.primaryButton,summon);Style(v.primaryLabel,30,Color.white);
@@ -85,6 +84,7 @@ namespace OpenFrame.Editor
             }
             InstallTerrain(w);
             DefenseGeneratedUI.Apply(v);
+            DefensePetitArt.Apply(v);
             v.overlay.transform.SetAsLastSibling();
             v.Refresh(new DefenseModel(new DefenseRules(),1),0);
             EditorUtility.SetDirty(v);EditorUtility.SetDirty(w);EditorSceneManager.MarkSceneDirty(v.gameObject.scene);EditorSceneManager.SaveScene(v.gameObject.scene);AssetDatabase.SaveAssets();
@@ -104,12 +104,13 @@ namespace OpenFrame.Editor
         }
         private static void InstallWeapons(DefenseWorldView w)
         {
-            var cast=Atlas("DefenseWeaponsV6.png",4,3,"ReferenceWeapon",new[]{0f,.24f,.46f,.725f,1f},new[]{0f,1f/3f,.615f,1f});
+            var cast=Atlas("DefenseCastV15.png",4,4,"DefenseCast",finalRowEdges:new[]{0f,.24f,.475f,.732f,1f});
+            w.monsterArt=cast.Skip(12).Take(4).ToArray();
             w.weaponSprites=new Sprite[9];w.supportArt=new Sprite[3];
             for(int row=0;row<3;row++){for(int col=0;col<3;col++)w.weaponSprites[row*3+col]=cast[row*4+col];w.supportArt[row]=cast[row*4+3];}
             foreach(var weapon in w.weapons)weapon.size=Vector2.one*.52f;
         }
-        internal static Sprite[] Atlas(string file,int columns,int rows,string prefix,float[] edges=null,float[] rowEdges=null,Vector4[] borders=null)
+        internal static Sprite[] Atlas(string file,int columns,int rows,string prefix,float[] edges=null,float[] rowEdges=null,Vector4[] borders=null,float[] finalRowEdges=null)
         {
             string path=Folder+file;AssetDatabase.ImportAsset(path);DefenseArtAuthoring.Configure(path);var t=AssetDatabase.LoadAssetAtPath<Texture2D>(path);
             if(t.GetPixel(0,0).a>.05f)throw new InvalidOperationException("Atlas requires actual transparency");
@@ -118,6 +119,7 @@ namespace OpenFrame.Editor
             {
                 int x0=i%columns*t.width/columns,y0=(rows-1-i/columns)*t.height/rows,x1=x0+t.width/columns,y1=y0+t.height/rows;
                 if(edges!=null){x0=Mathf.RoundToInt(edges[i%columns]*t.width);x1=Mathf.RoundToInt(edges[i%columns+1]*t.width);}
+                if(finalRowEdges!=null && i/columns==rows-1){x0=Mathf.RoundToInt(finalRowEdges[i%columns]*t.width);x1=Mathf.RoundToInt(finalRowEdges[i%columns+1]*t.width);}
                 if(rowEdges!=null){y0=Mathf.RoundToInt((1-rowEdges[i/columns+1])*t.height);y1=Mathf.RoundToInt((1-rowEdges[i/columns])*t.height);}
                 int l=x1,r=x0,b=y1,top=y0;
                 for(int y=y0;y<y1;y++)for(int x=x0;x<x1;x++)if(t.GetPixel(x,y).a>.18f){l=Math.Min(l,x);r=Math.Max(r,x);b=Math.Min(b,y);top=Math.Max(top,y);}

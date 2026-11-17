@@ -31,7 +31,12 @@ namespace OpenFrame
             view.boardInput.Moved = Preview;
             view.boardInput.Exited = HideGhost;
             view.rotateButton.onClick.AddListener(Rotate);
-            view.redrawButton.onClick.AddListener(() => Model.Redraw());
+            view.redrawButton.onClick.AddListener(() =>
+            {
+                if (!Model.IsPlaying || Model.Coins < Model.RollCost) return;
+                Model.Redraw();
+                view.AnimateOffer();
+            });
             view.rescueButton.onClick.AddListener(() => Model.Rescue());
             view.pauseButton.onClick.AddListener(TogglePause);
             view.primaryButton.onClick.AddListener(Primary);
@@ -52,6 +57,8 @@ namespace OpenFrame
             Model.AttackEffect += view.world.AddEffect;
             Model.Cleared += view.ShowClear;
             Model.SupportSummoned += view.ShowSupport;
+            Model.RowCleared += view.world.ShowRowClear;
+            Model.EnemyDefeated += view.world.ShowDefeat;
             selected = 0;
             hovering = false;
             recorded = false;
@@ -62,7 +69,7 @@ namespace OpenFrame
         {
             float dt = Mathf.Min(Time.unscaledDeltaTime, 0.1f);
             Model.Tick(dt);
-            view.RenderEnemies(Model, Model.Paused ? 0 : dt);
+            view.RenderEnemies(Model, Model.IsPlaying ? dt : 0);
             hudClock -= dt;
             if (hudClock <= 0)
             {
@@ -103,8 +110,11 @@ namespace OpenFrame
         private void Drop(PointerEventData data)
         {
             if (data.button != PointerEventData.InputButton.Left) return;
-            if (view.GetCell(data.position, out var cell) && Model.Place(selected, cell.x, cell.y))
-                view.feedbackSource.PlayOneShot(view.placementSound, 0.45f);
+            if (Model.IsPlaying && Model.HasPiece && view.GetCell(data.position, out var cell))
+            {
+                if (Model.Place(selected, cell.x, cell.y)) view.feedbackSource.PlayOneShot(view.placementSound, 0.45f);
+                else view.RejectPlacement();
+            }
             HideGhost();
         }
         private void HideGhost() { hovering = false; view.ShowGhost(Model, selected, hoverCell, false); }

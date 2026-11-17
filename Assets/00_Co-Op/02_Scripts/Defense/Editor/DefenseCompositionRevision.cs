@@ -41,7 +41,7 @@ namespace OpenFrame.Editor
    Place(v.rotateButton.transform,255,103,220,58);Tint(v.rotateButton.transform,new Color(.25f,.21f,.37f));Place(v.rescueButton.transform,590,103,340,58);Tint(v.rescueButton.transform,new Color(.25f,.21f,.37f));
    Place(v.record.transform,590,165,350,28);v.record.fontSize=18;v.record.alignment=TextAlignmentOptions.Center;v.record.color=new Color(.71f,.69f,.8f);
    Place(v.clearText.transform,450,1380,650,38);v.clearText.fontSize=27;
-   Place(v.overlay.transform.Find("Modal"),0,0,790,660);v.overlay.transform.Find("ModalAccent").gameObject.SetActive(false);Place(v.overlayTitle.transform,0,260,700,65);v.overlayTitle.fontSize=32;Place(v.overlayBody.transform,0,80,680,220);v.overlayBody.fontSize=24;Place(v.primaryButton.transform,0,-240,640,75);
+   Place(v.modal,0,0,790,660);v.modal.parent.Find("ModalAccent").gameObject.SetActive(false);Place(v.overlayTitle.transform,0,260,700,65);v.overlayTitle.fontSize=32;Place(v.overlayBody.transform,0,80,680,220);v.overlayBody.fontSize=24;Place(v.primaryButton.transform,0,-240,640,75);
    for(int i=0;i<3;i++)
    {
     var button=v.upgrades[i];Place(button.transform,0,115-i*125,680,105);Tint(button.transform,new Color(.23f,.19f,.33f));
@@ -80,6 +80,7 @@ namespace OpenFrame.Editor
   }
  }
 }
+
 
 
 

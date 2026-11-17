@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 5c9eca4c36da9bc48af358e97e290095
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2812109299478500930
+    second: PetitUI_0
+  - first:
+      213: -5132612990833091206
+    second: PetitUI_1
+  - first:
+      213: -1441610257965956650
+    second: PetitUI_2
+  - first:
+      213: -8892080112659758901
+    second: PetitUI_3
+  - first:
+      213: 3422453763640386860
+    second: PetitUI_4
+  - first:
+      213: 3347389616470855660
+    second: PetitUI_5
+  - first:
+      213: 9072061866408415862
+    second: PetitUI_6
+  - first:
+      213: 4555679501945809030
+    second: PetitUI_7
+  - first:
+      213: -7586444736676078594
+    second: PetitUI_8
+  - first:
+      213: -5138159068603205490
+    second: PetitUI_9
+  - first:
+      213: -1285598849140179522
+    second: PetitUI_10
+  - first:
+      213: 1787285848141017118
+    second: PetitUI_11
+  - first:
+      213: 471061594965443112
+    second: PetitUI_12
+  - first:
+      213: 497755811008322778
+    second: PetitUI_13
+  - first:
+      213: 5715497858488566210
+    second: PetitUI_14
+  - first:
+      213: -7873372485569614188
+    second: PetitUI_15
+  - first:
+      213: -3340110115440335349
+    second: PetitUI_16
+  - first:
+      213: 5305235712588374896
+    second: PetitUI_17
+  - first:
+      213: 3523408442991310836
+    second: PetitUI_18
+  - first:
+      213: 737764601307311944
+    second: PetitUI_19
+  - first:
+      213: 9191572710822165001
+    second: PetitUI_20
+  - first:
+      213: 7103881426559646460
+    second: PetitUI_21
+  - first:
+      213: -8060076083700698124
+    second: PetitUI_22
+  - first:
+      213: 5862504903161399877
+    second: PetitUI_23
+  - first:
+      213: 8098241136182617373
+    second: PetitUI_24
+  - first:
+      213: 5352982917491512438
+    second: PetitUI_25
+  - first:
+      213: -6256928940087356674
+    second: PetitUI_26
+  - first:
+      213: -137179210311585181
+    second: PetitUI_27
+  - first:
+      213: 2147492830804176117
+    second: PetitUI_28
+  - first:
+      213: 9042563324401407236
+    second: PetitUI_29
+  - first:
+      213: -7767273820443935532
+    second: PetitUI_30
+  - first:
+      213: 5800359416032248555
+    second: PetitUI_31
+  - first:
+      213: 6193562944832938805
+    second: PetitUI_32
+  - first:
+      213: -6806712913665812635
+    second: PetitUI_33
+  - first:
+      213: -6139826800142492452
+    second: PetitUI_34
+  - first:
+      213: 81768089199536015
+    second: PetitUI_35
+  - first:
+      213: 543680959093169232
+    second: PetitUI_36
+  - first:
+      213: -8739220300324023996
+    second: PetitUI_37
+  - first:
+      213: -2774858689751148434
+    second: PetitUI_38
+  - first:
+      213: 7150871588498268583
+    second: PetitUI_39
+  - first:
+      213: 6686982736317638827
+    second: PetitUI_40
+  - first:
+      213: -8810373363748161569
+    second: PetitUI_41
+  - first:
+      213: -6728772551169642662
+    second: PetitUI_42
+  - first:
+      213: -296496238688977537
+    second: PetitUI_43
+  - first:
+      213: -6962575600586027178
+    second: PetitUI_44
+  - first:
+      213: -9084361670004166995
+    second: PetitUI_45
+  - first:
+      213: 6392308738907684015
+    second: PetitUI_46
+  - first:
+      213: -8989442044459705919
+    second: PetitUI_47
+  - first:
+      213: -8238853444925571478
+    second: PetitUI_48
+  - first:
+      213: -1358191258590723793
+    second: PetitUI_49
+  - first:
+      213: -855921934364194311
+    second: PetitUI_50
+  - first:
+      213: -648470397832789609
+    second: PetitUI_51
+  - first:
+      213: 5572132385682961524
+    second: PetitUI_52
+  - first:
+      213: -7456885131683615624
+    second: PetitUI_53
+  - first:
+      213: 1454398276572614321
+    second: PetitUI_54
+  - first:
+      213: 1980550145377511274
+    second: PetitUI_55
+  - first:
+      213: -4339841551371259521
+    second: PetitUI_56
+  - first:
+      213: -3496509662713316849
+    second: PetitUI_57
+  - first:
+      213: -6850841573419377711
+    second: PetitUI_58
+  - first:
+      213: -7791461472252433392
+    second: PetitUI_59
+  - first:
+      213: 2528151611298258242
+    second: PetitUI_60
+  - first:
+      213: 7590458145528345826
+    second: PetitUI_61
+  - first:
+      213: 1484980959917698395
+    second: PetitUI_62
+  - first:
+      213: 1328170799922137013
+    second: PetitUI_63
+  - first:
+      213: 2328596158748634405
+    second: PetitUI_64
+  - first:
+      213: 8794569597368444507
+    second: PetitUI_65
+  - first:
+      213: 8914502981564653929
+    second: PetitUI_66
+  - first:
+      213: -8762474546449415835
+    second: PetitUI_67
+  - first:
+      213: 2679732279528775587
+    second: PetitUI_68
+  - first:
+      213: 2559454258573420805
+    second: PetitUI_69
+  - first:
+      213: -5181733222968719547
+    second: PetitUI_70
+  - first:
+      213: -7090718111757427293
+    second: PetitUI_71
+  - first:
+      213: -6817708237549853843
+    second: PetitUI_72
+  - first:
+      213: -5961485376643538136
+    second: PetitUI_73
+  - first:
+      213: -4263535164540909922
+    second: PetitUI_74
+  - first:
+      213: -5413002582438004658
+    second: PetitUI_75
+  - first:
+      213: -1882052377485709351
+    second: PetitUI_76
+  - first:
+      213: -111824554056470059
+    second: PetitUI_77
+  - first:
+      213: 5531207598352549394
+    second: PetitUI_78
+  - first:
+      213: -1821336025389521395
+    second: PetitUI_79
+  - first:
+      213: 3831770619784732363
+    second: PetitUI_80
+  - first:
+      213: 9168190089956981536
+    second: PetitUI_81
+  - first:
+      213: 1445994500273990004
+    second: PetitUI_82
+  - first:
+      213: 200471028098532108
+    second: PetitUI_83
+  - first:
+      213: -797705228522971817
+    second: PetitUI_84
+  - first:
+      213: -4656235718236864969
+    second: PetitUI_85
+  - first:
+      213: -6320736307617764496
+    second: PetitUI_86
+  - first:
+      213: -6306387938710625302
+    second: PetitUI_87
+  - first:
+      213: -8851896543621717518
+    second: PetitUI_88
+  - first:
+      213: 7509721299522662148
+    second: PetitUI_89
+  - first:
+      213: 5654181749523831670
+    second: PetitUI_90
+  - first:
+      213: -5979328726238744321
+    second: PetitUI_91
+  - first:
+      213: -586409260606242975
+    second: PetitUI_92
+  - first:
+      213: 156348009332807378
+    second: PetitUI_93
+  - first:
+      213: -2635757870803984690
+    second: PetitUI_94
+  - first:
+      213: -1496277736842809388
+    second: PetitUI_95
+  - first:
+      213: 20957926184184037
+    second: PetitUI_96
+  - first:
+      213: 8299899633418085646
+    second: PetitUI_97
+  - first:
+      213: -5227249909685673541
+    second: PetitUI_98
+  - first:
+      213: -4086266572575149663
+    second: PetitUI_99
+  - first:
+      213: -7718861735443215560
+    second: PetitUI_100
+  - first:
+      213: -95340225431127826
+    second: PetitUI_101
+  - first:
+      213: 2011455157741529899
+    second: PetitUI_102
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PetitUI0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 828
+        width: 432
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb50f99adbd8364ab07434237d5a506
+      internalID: -231651604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI1
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 834
+        width: 442
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643194e9075707245a998815c3653126
+      internalID: -227517477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI2
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 835
+        width: 349
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7e3ba0ec246964596d99daf2d9ce67
+      internalID: 438569439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 554
+        width: 213
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e870b0f1cfb6e4a8b2847409567d58
+      internalID: 1280101954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI4
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 552
+        width: 218
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa951068a352f41afa62e5168f7c7a
+      internalID: -557374708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI5
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 553
+        width: 217
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ad05630db2e054f9cdb869ca84d55c
+      internalID: -1626854297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 303
+        width: 212
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9dc5c498d1e4b43809619e035d413d
+      internalID: 1715342641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 317
+        width: 159
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5bed2450eb9544da29a72f4f211a3d
+      internalID: 507509235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI8
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 376
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77943e6ecef24145a380fcf8a887955
+      internalID: 1819176475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 42
+        width: 232
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739d8400618c5954da9d412fef073193
+      internalID: 1844042874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI10
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 42
+        width: 232
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868f253c2508e554489fb2a41a734ee0
+      internalID: -1155622785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PetitUI11
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 43
+        width: 232
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775dc539643e2cf4a845e537c308b3d3
+      internalID: -790599493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bef44b9ecc646c04a8adc440d0dceb82
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PetitUI0: -231651604
+      PetitUI1: -227517477
+      PetitUI10: -1155622785
+      PetitUI11: -790599493
+      PetitUI2: 438569439
+      PetitUI3: 1280101954
+      PetitUI4: -557374708
+      PetitUI5: -1626854297
+      PetitUI6: 1715342641
+      PetitUI7: 507509235
+      PetitUI8: 1819176475
+      PetitUI9: 1844042874
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
